@@ -1,13 +1,25 @@
-Integrantes:
-1. Sebastian Ferreyra
-2. Gabriela Colque
-3. Abraham Berrospi
+<h2 align="center">
+<p>ASLearning 🔤 </p>
+</h2>
 
-Tema a desarrollar:
-Aplicacion para aprender lenguaje de señas
+## 👩‍💻 Integrantes
+
+* Berrospi Casano, Abraham
+* Colque Unocc, Gabriela
+* Ferreyra Cornejo, Sebastian
+
+## 👆 Tema a desarrollar
+
+Aplicación para el aprendizaje del alfabeto del lenguaje de señas, cuenta con interfaz de voz y reconociemiento de gestos de las manos. 
+
+Nuestra aplicación tiene como objetivo ayudar al usuario en el aprendizaje del abecedario en tiempo real.
 
 
-Caracteristicas:
-1. Se usara una interfaz con reconocimiento de gestos de las manos
-2. Se usara una interfaz de voz
-3. Ambito de gestion del conocimiento / enseñanza
+## 📃 Características
+
+1. Se usará una interfaz con reconocimiento de gestos de las manos.
+2. Se usará una interfaz de voz.
+3. Ámbito de gestión del conocimiento / enseñanza.
+4. Página principal con el inicio de la app.
+5. Contará con niveles de aprendizaje respecto al abecedario.
+6. Contará con imágenes de referencia o muestras para la enseñanza.
