@@ -23,3 +23,7 @@ Nuestra aplicación tiene como objetivo ayudar al usuario en el aprendizaje del 
 4. Página principal con el inicio de la app.
 5. Contará con niveles de aprendizaje respecto al abecedario.
 6. Contará con imágenes de referencia o muestras para la enseñanza.
+
+## :clipboard:  Entregables
+
+* Nota: El conjunto de informes esta disponible [aquí](https://drive.google.com/drive/folders/1YbFL77lRPgqbsdVAWrRAWJnj3dgjGQ8J?usp=share_link)
