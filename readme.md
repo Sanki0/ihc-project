@@ -1,5 +1,5 @@
 <h2 align="center">
-<p>ASLearning 🔤 </p>
+<p>LearningSigns 🔤 </p>
 </h2>
 
 ## 👩‍💻 Integrantes
