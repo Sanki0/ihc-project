@@ -1,5 +1,5 @@
 <h2 align="center">
-<p>LearningSigns 🔤 </p>
+<p>Señas ABC 🔤 </p>
 </h2>
 
 ## 👩‍💻 Integrantes
