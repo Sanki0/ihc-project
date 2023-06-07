@@ -9,11 +9,15 @@ export default function Home() {
                 <Menu/>
             </div>
             <div className="Home">
-                <h1>Home</h1>  
+                <h1>Señas ABC</h1>  
+                <h2>Aprende el lenguaje de señas</h2>
+                <img></img>
+                <h2>¿Estás preparado para el reto?</h2>
             </div>
-            <div className="Hola">
+            {/* <div className="Hola">
+            <img src={"abc.jpg"}></img>
                 <p>Hola</p>
-            </div>
+            </div> */}
         </div>
     );
 }

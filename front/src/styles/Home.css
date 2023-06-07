@@ -1,11 +1,30 @@
 .Menu{
   height: 20%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Home{
-  height: 70%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 80%;
 }
 
-.Hola{
-  height: 10%;
+.Home h1{
+  height: 20%;
 }
+
+.Home h2{
+  height: 20%;
+}
+
+.Home img{
+  height: 40%;
+}
+
+/* .Hola{
+  height: 10%;
+} */
