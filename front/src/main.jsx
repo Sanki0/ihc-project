@@ -13,9 +13,9 @@ import Miembro1 from './pages/Miembro1.jsx'
 import Miembro2 from './pages/Miembro2.jsx'
 import Miembro3 from './pages/Miembro3.jsx'
 
-import { 
+import {
   createBrowserRouter,
-  RouterProvider 
+  RouterProvider
 } from "react-router-dom"
 
 const router = createBrowserRouter([

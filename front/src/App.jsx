@@ -5,7 +5,7 @@ import './App.css'
 
 import * as tf from "@tensorflow/tfjs";
 import Webcam from "react-webcam";
-import { drawRect } from "./utilities";
+import { drawRect } from "./utilities/utilities";
 
 
 function App() {

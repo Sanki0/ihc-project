@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom"
 import Menu from '../components/Menu'
+import foto from '../assets/foto1.jpg'
+
 
 export default function Miembro1() {
     return (
         <div>
-            <Menu/>
-            <p>Hola soy Miembro1</p>
+            <p>Hola soy Sebastian Ferreyra</p>
+            <img src={foto} alt="foto1" />
+
         </div>
     )
 }

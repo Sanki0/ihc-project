@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom"
 import Menu from '../components/Menu'
 
-export default function Miembro3() {
+import foto from '../assets/foto2.jpg'
+
+
+export default function Miembro2() {
     return (
         <div>
-            <Menu/>
             <p>Hola soy Miembro2</p>
+            <img src={foto} alt="foto1" />
+
         </div>
     )
 }
