@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .Menu{
   height: 20%;
   width: 85%;
@@ -16,17 +18,31 @@
   color: #074F57;
 }
 
-.cont-1{
-  height: 15%;
+.cont-1-nivel{
+  height: 5%;
 }
 
-.cont-2{
-  height: 15%;
+.cont-2-nivel{
+  height: 20%;
+}
+
+.cont-3-nivel{
+  height: 10%;
 }
 
 .Home h1{
   height: 15%;
   font-size: 1.5rem;
+  font-family: 'Pacifico', cursive;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.02em;
+  color: #F9f1cc;
+  text-shadow: 5px 5px 0px #FFB650, 
+    10px 10px 0px #FFD662, 
+    15px 15px 0px  #FF80BF, 
+    20px 20px 0px #EF5097, 
+    25px 25px 0px #6868AC, 
+    30px 30px 0px #90B1E0;
 }
 
 .Home h3{
@@ -55,7 +71,7 @@
   width: 28%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.25rem;
+  font-size: 0.35rem;
   font-weight: 400;
 }
 

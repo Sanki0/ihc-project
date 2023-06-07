@@ -6,7 +6,7 @@
     color: #074F57;
 }
 
-.Home{
+.Nivel{
     height: 80%;
     width: 85%;
     overflow: hidden;
@@ -24,7 +24,7 @@
     height: 5%;
 }
 
-.Home h1{
+.Nivel h1{
     height: 15%;
     font-size: 1.5rem;
   }

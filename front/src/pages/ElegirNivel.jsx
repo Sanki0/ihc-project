@@ -27,7 +27,7 @@ export default function Home() {
             <div className="Menu">
                 <Menu3 />
             </div>
-            <div className="Home">
+            <div className="Nivel">
                 <div className="cont-1"></div>
                 <h1>Comenzara en 5 segundos al elegir el nivel</h1>
                 <div className="cont-2"></div>

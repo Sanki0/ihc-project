@@ -9,14 +9,15 @@ export default function Home() {
                 <Menu />
             </div>
             <div className="Home">
-                <div className="cont-1"></div>
+                <div className="cont-1-nivel"></div>
                 <h1 className="slide-down delay-2">Señas ABC</h1>
+                <div className="cont-3-nivel"></div>
                 <h3 className="slide-down delay-2">Aprende el ABC de lenguaje de señas con machine learning</h3>
                 <button className="button-home slide-down delay-1" role="button">
                     <Link className="link" to="elegir-nivel">Comenzar</Link>
                 <Outlet />
                 </button>
-                <div className="cont-2"></div>
+                <div className="cont-2-nivel"></div>
                 <p className="slide-up delay-1">Este juego usará tu cámara web y el aprendizaje automático para analizar 
                     las formas de tus manos. Todo se procesa localmente y no se enviarán ni 
                     almacenarán datos de la cámara web en ninguna parte</p>
