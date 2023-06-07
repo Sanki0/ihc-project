@@ -6,14 +6,11 @@ export default function Menu(){
         <div>
             <div className="container">
                 <div className="logo">
-                    <Link to={"/"}> <img src={"media/logo.jpg"} alt="Logo" className="logo-img" /></Link>
+                    <img src={"media/logo.jpg"} alt="Logo" className="logo-img" />
                 </div>
                 <div className="ventanas">
                     <div>
-                        <Link className='text-link' to={"/conocenos"}>INICIO</Link>
-                    </div>
-                    <div>
-                        <Link className='text-link' to={"/formulario"}>SUGERENCIAS</Link>
+                        <Link className='text-link' to={"/"}>INICIO</Link>
                     </div>
                 </div>
             </div>

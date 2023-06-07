@@ -9,17 +9,18 @@ export default function Conocenos() {
     return (
         <div className="Menu">
             <Menu2 />
-            <h1>Conocenos</h1>
             <div className="Conocenos">
-                <div className="Miembro1">
-                    <Miembro1 />
+                <div className="cuadros">
+                    <div className="Miembro1">
+                        <Miembro1 />
 
-                </div>
-                <div className="Miembro2">
-                    <Miembro2 />
-                </div>
-                <div className="Miembro3">
-                    <Miembro3 />
+                    </div>
+                    <div className="Miembro2">
+                        <Miembro2 />
+                    </div>
+                    <div className="Miembro3">
+                        <Miembro3 />
+                    </div>
                 </div>
             </div>
         </div>
