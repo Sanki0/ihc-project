@@ -8,5 +8,5 @@ export default function Formulario() {
             <h1>Formulario</h1>
             <p>Hola</p>
         </div>
-    )
+    );
 }

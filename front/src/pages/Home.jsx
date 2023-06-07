@@ -8,5 +8,5 @@ export default function Home() {
             <h1>Home</h1>  
             <p>Hola</p>
         </div>
-    )
+    );
 }

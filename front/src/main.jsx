@@ -12,28 +12,26 @@ import Miembro3 from './pages/Miembro3.jsx' */
 import { 
   createBrowserRouter,
   RouterProvider 
-  } from "react-router-dom"
+} from "react-router-dom"
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home/>,
-    errorElement: <h1>No existe esa ventana</h1>
+    element: <Home />,
+    errorElement: <h1>No existe esa ventana</h1>,
   },
   {
     path: '/conocenos',
-    element: <Conocenos/>,
+    element: <Conocenos />,
   },
   {
     path: '/formulario',
-    element: <Formulario/>,
-  }
+    element: <Formulario />,
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <h1>H1!</h1> */}
     <RouterProvider router={router} />
-    {/* <App /> */}
   </React.StrictMode>,
 )

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Menu from '../components/Menu'
+import Menu from "../components/Menu";
 
 export default function Conocenos() {
     return (
@@ -8,5 +8,5 @@ export default function Conocenos() {
             <h1>Conocenos</h1>
             <p>Hola</p>
         </div>
-    )
+    );
 }
