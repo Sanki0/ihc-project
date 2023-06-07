@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="cont-1"></div>
                 <h1 className="slide-down delay-2">Señas ABC</h1>
                 <h3 className="slide-down delay-2">Aprende el ABC de lenguaje de señas con machine learning</h3>
-                <button className="button-62 slide-down delay-1" role="button">
+                <button className="button-home slide-down delay-1" role="button">
                     <Link className="link" to="elegir-nivel">Comenzar</Link>
                 <Outlet />
                 </button>

@@ -48,7 +48,6 @@
   text-decoration: none;
   color: white;
   margin: auto;
-  
 }
 
 .Home p{
@@ -112,7 +111,7 @@
 }
 
 /* CSS */
-.button-62 {
+.button-home {
   height: 13%;
   width: 25%;
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);

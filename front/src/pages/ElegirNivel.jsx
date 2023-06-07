@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom"
 import Menu3 from '../components/Menu3'
-import '../styles/Home.css'
+import '../styles/ElegirNivel.css'
 import { useState } from "react";
 
 export default function Home() {
@@ -28,15 +28,48 @@ export default function Home() {
                 <Menu3 />
             </div>
             <div className="Home">
+                <div className="cont-1"></div>
                 <h1>Comenzara en 5 segundos al elegir el nivel</h1>
-                {
-                    counter === 0 ? <button onClick={counterTimer}>Nivel1</button> : <h1>{counter}</h1>
-                }
-                {
-                    counter === 0 ? <button onClick={counterTimer}>Nivel2</button> : <h1>{counter}</h1>
-                }
+                <div className="cont-2"></div>
+                <div className="button-container">
+                    <div className="button-item">
+                        {counter === 0 ? (
+                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
+                            Nivel 1
+                            </button>
+                        ) : (
+                            <h1>{counter}</h1>
+                        )}
+                    </div>
+                    <div className="button-item">
+                        {counter === 0 ? (
+                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
+                            Nivel 2
+                            </button>
+                        ) : (
+                            <h1>{counter}</h1>
+                        )}
+                    </div>
+                    <div className="button-item">
+                        {counter === 0 ? (
+                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
+                            Nivel 3
+                            </button>
+                        ) : (
+                            <h1>{counter}</h1>
+                        )}
+                    </div>
+                    <div className="button-item">
+                        {counter === 0 ? (
+                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
+                            Nivel 4
+                            </button>
+                        ) : (
+                            <h1>{counter}</h1>
+                        )}
+                    </div>
+                </div>
             </div>
-            <Outlet />
         </div>
     );
 }
