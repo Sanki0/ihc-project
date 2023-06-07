@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import Menu from "../components/Menu";
 
 export default function Conocenos() {
@@ -7,6 +7,9 @@ export default function Conocenos() {
             <Menu/>
             <h1>Conocenos</h1>
             <p>Hola</p>
+            <div>
+                < Outlet />
+            </div>
         </div>
     );
 }

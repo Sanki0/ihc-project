@@ -5,8 +5,7 @@ export default function Formulario() {
     return (
         <div>
             <Menu/>
-            <h1>Formulario</h1>
-            <p>Hola</p>
+            <p>Hola soy Miembro3</p>
         </div>
     )
 }

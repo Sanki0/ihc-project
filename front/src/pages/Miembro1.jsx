@@ -5,8 +5,7 @@ export default function Miembro1() {
     return (
         <div>
             <Menu/>
-            <h1>Formulario</h1>
-            <p>Hola</p>
+            <p>Hola soy Miembro1</p>
         </div>
     )
 }

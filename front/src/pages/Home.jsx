@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import Menu from '../components/Menu'
 
 export default function Home() {
