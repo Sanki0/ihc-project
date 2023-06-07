@@ -77,8 +77,8 @@ export default function Juego() {
 
 
     return (
-        <div className="App">
-            <header className="App-header">
+        <div className="Menu">
+            <div >
                 <Webcam
                     ref={webcamRef}
                     muted={true}
@@ -109,7 +109,12 @@ export default function Juego() {
                         height: 480,
                     }}
                 />
-            </header>
+
+            </div>
+
+            <div>
+                Volver a <Link to="/elegir-nivel">niveles</Link>
+            </div>
         </div>
     );
 }
