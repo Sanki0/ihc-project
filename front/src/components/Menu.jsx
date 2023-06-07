@@ -9,7 +9,7 @@ export default function Menu(){
                     <Link to={"/"}> <img src={"/alphabet-svgrepo-com.svg"} alt="Logo" className="logo-img" /></Link>
                 </div>
                 <div className="ventanas">
-                    <div className="aaa">
+                    <div>
                         <Link className='text-link' to={"/conocenos"}>CONÓCENOS</Link>
                     </div>
                     <div>

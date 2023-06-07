@@ -5,6 +5,8 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import Formulario from './pages/Formulario.jsx'
 import Conocenos from './pages/Conocenos.jsx'
+import Nombre from './pages/Nombre.jsx'
+import Nivel from './pages/Nivel.jsx'
 import Miembro1 from './pages/Miembro1.jsx'
 import Miembro2 from './pages/Miembro2.jsx'
 import Miembro3 from './pages/Miembro3.jsx'
@@ -39,8 +41,16 @@ const router = createBrowserRouter([
     ]
   },
   {
+    path: '/nombre',
+    element: <Nombre />,
+  },
+  {
     path: '/formulario',
     element: <Formulario />,
+  },
+  {
+    path: '/nivel',
+    element: <Nivel />,
   },
 ])
 

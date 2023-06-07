@@ -10,10 +10,7 @@ export default function Menu(){
                 </div>
                 <div className="ventanas">
                     <div>
-                        <Link className='text-link' to={"/conocenos"}>INICIO</Link>
-                    </div>
-                    <div>
-                        <Link className='text-link' to={"/formulario"}>SUGERENCIAS</Link>
+                        <Link className='text-link' to={"/conocenos"}>NIVELES</Link>
                     </div>
                 </div>
             </div>
