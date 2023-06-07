@@ -7,8 +7,8 @@ import foto from '../assets/foto2.jpg'
 export default function Miembro2() {
     return (
         <div>
-            <p>Hola soy Miembro2</p>
-            <img src={foto} alt="foto1" />
+            <p>Hola soy Abraham Berrospi</p>
+            <img src={foto} alt="foto1" className="foto-img" />
 
         </div>
     )

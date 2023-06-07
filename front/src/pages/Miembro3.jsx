@@ -7,8 +7,8 @@ export default function Miembro3() {
     return (
         <div>
 
-            <p>Hola soy Miembro3</p>
-            <img src={foto} alt="foto1" />
+            <p>Hola soy Gabriela Colque</p>
+            <img src={foto} alt="foto1" className="foto-img"/>
 
         </div>
     )

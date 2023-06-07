@@ -1,0 +1,11 @@
+
+.foto-img {
+    width: 200px;
+    height: 200px;
+}
+
+.cuadros {
+    padding-top: 13px;
+    display: flex;
+    margin-left: 10px;
+}
