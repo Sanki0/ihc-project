@@ -77,9 +77,10 @@
   width: 26vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.35rem;
+  font-size: 0.45rem;
   font-weight: 400;
   overflow-y: hidden;
+  font-family: 'Harmattan', sans-serif;
 }
 
 .home-slide-down  {
