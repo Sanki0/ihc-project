@@ -3,20 +3,18 @@ import './styles/Menu.css'
 
 export default function Menu(){
     return (
-        <div>
-            <div className="container">
-                <div className="logo">
+            <div className="Menu-navbar">
+                <div className="Menu-navbar-left">
                     <img src={"abc-svgrepo-com.svg"} alt="Logo" className="logo-img" />
                 </div>
-                <div className="ventanas">
+                <div className="Menu-navbar-right">
                     <div>
-                        <Link className='text-link' to={"/conocenos"}>CONÓCENOS</Link>
+                        <Link className='nav-link' to={"/conocenos"}>Conócenos</Link>
                     </div>
                     <div>
-                        <Link className='text-link' to={"/formulario"}>SUGERENCIAS</Link>
+                        <Link className='nav-link' to={"/formulario"}>Sugerencias</Link>
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
