@@ -4,9 +4,19 @@ import '../styles/Formulario.css'
 
 export default function Formulario() {
     return (
-        <div>
-            <h1>Formulario</h1>
-            <p>Hola</p>
+        <div className="Menu">
+            <form>
+                <label>
+                    Name:
+                    <input type="text" name="name" />
+                </label>
+                <input type="submit" value="Submit" />
+                <label>
+                    Comentario:
+                    <input type="text" name="name" />
+                </label>
+                <input type="submit" value="Submit" />
+            </form>
         </div>
     );
 }
