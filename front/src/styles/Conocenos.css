@@ -1,11 +1,55 @@
-
-.foto-img {
-    width: 200px;
-    height: 200px;
+.Conocenos{
+    height: 100vh;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.cuadros {
-    padding-top: 13px;
+.conocenos-Menu{
+    height: 20vh;
+}
+
+.conocenos-container{
+    height: 80vh;
     display: flex;
-    margin-left: 10px;
+}
+
+.conocenos-descripcion{
+    height: 50vh;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+
+.conocenos-descripcion p{
+    width: 85%;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.conocenos-miembros{
+    width: 50%;
+}
+
+.miembro{
+    height: 33.33%;
+    display: flex;
+}
+
+.miembro p{
+    text-align:center;
+    font-size: 0.7rem;
+}
+
+.miembro img{
+    width: 20%;
+    height: 20%;
+}
+
+.miembro .foto-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
 }
