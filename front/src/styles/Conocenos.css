@@ -42,6 +42,7 @@
 .miembro{
     height: 33.33%;
     display: flex;
+    overflow: hidden;
 }
 
 .miembro .foto-img {
@@ -52,7 +53,7 @@
 }
 
 .datos{
-    height: 75%;
+    height: 100%;
     display: grid;
     /* grid-template-rows: 10% 60% 30%; */
 }
@@ -87,6 +88,7 @@
     font-size: 0.5rem;
     font-family: 'Harmattan', sans-serif;
     text-align:justify;
+    overflow: hidden;
 }
 
 .datos-redes {
@@ -94,12 +96,26 @@
     justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
     /* margin-top: -210px; */
 }
-  
+
 .redsocial {
+    height: 5vh;
+    width: 5vw;
+    display: inline-block;
+    margin: 0;
+  padding: 0;
     flex: 1; /* Hace que cada espacio ocupe todo el espacio disponible */
     display: flex;
     justify-content: center; /* Centra los elementos horizontalmente */
     align-items: center; /* Centra los elementos verticalmente */
+}
+
+.redsocial a {
+  display: block;
+  width: 5vh; /* Ajusta el ancho según tus necesidades */
+  height: 5vw; /* Ajusta el alto según tus necesidades */
+  margin: 0;
+  padding: 0;
+  color: #48486d;
 }
 
 /* .datos-nombre {

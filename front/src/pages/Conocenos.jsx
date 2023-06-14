@@ -4,6 +4,7 @@ import '../styles/Conocenos.css'
 import foto1 from '../assets/foto1.jpg'
 import foto2 from '../assets/foto2.jpg'
 import foto3 from '../assets/foto3.jpg'
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function Conocenos() {
     return (
@@ -26,10 +27,22 @@ export default function Conocenos() {
                             <h4 className="datos-nombre">Sebastian Ferreyra</h4>
                             <p className="datos-descripcion">Bachiller en Ciencia de la Computación (UNI), con experiencia en desarrollo web y un interés particular en el área de DevOps, 
                             busca combinar su conocimiento técnico con las mejores prácticas de implementación y gestión de proyectos. </p>
-                            <div class="datos-redes">
-                                <div class="redsocial">a</div>
-                                <div class="redsocial">b</div>
-                                <div class="redsocial">c</div>
+                            <div className="datos-redes">
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaLinkedin />
+                                    </a>
+                                </div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaGithub />
+                                    </a>
+                                </div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaTwitter />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,9 +54,21 @@ export default function Conocenos() {
                             Posee experiencia en la administración de sistemas, virtualización y despliegue de aplicaciones. 
                             Su enfoque versátil le permite trabajar en diferentes capas de una aplicación, desde el back-end hasta el front-end</p>
                             <div class="datos-redes">
-                                <div class="redsocial">a</div>
-                                <div class="redsocial">b</div>
-                                <div class="redsocial">c</div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaLinkedin />
+                                    </a>
+                                </div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaGithub />
+                                    </a>
+                                </div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaTwitter />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -54,9 +79,21 @@ export default function Conocenos() {
                             <p className="datos-descripcion">Bachiller en Ciencia de la Computacion(UNI), se especializa en el campo de la Inteligencia Artificial. 
                             Con un profundo interés en el aprendizaje automático y el procesamiento del lenguaje natural, busca aplicar sus conocimientos en proyectos innovadores. </p>
                             <div class="datos-redes">
-                                <div class="redsocial">a</div>
-                                <div class="redsocial">b</div>
-                                <div class="redsocial">c</div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaLinkedin />
+                                    </a>
+                                </div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaGithub />
+                                    </a>
+                                </div>
+                                <div className="redsocial">
+                                    <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
+                                        <FaTwitter />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
