@@ -55,11 +55,11 @@
 .datos{
     height: 100%;
     display: grid;
-    /* grid-template-rows: 10% 60% 30%; */
+    /* grid-template-rows: 20% 50%; */
 }
  
 .datos-nombre{
-    height: 100%;
+    height: 5vh;/* 34px */
     text-align: center;
     font-size: 0.9rem;
     font-family: 'Harmattan', sans-serif;
@@ -92,6 +92,8 @@
 }
 
 .datos-redes {
+    /* border: 1px solid black; */
+    height: 5vh;
     display: flex;
     justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
     /* margin-top: -210px; */
@@ -116,6 +118,11 @@
   margin: 0;
   padding: 0;
   color: #48486d;
+}
+
+.espacio-blanco{
+  height: 3vh;
+  /* border: 1px solid black; */
 }
 
 /* .datos-nombre {

@@ -44,6 +44,7 @@ export default function Conocenos() {
                                     </a>
                                 </div>
                             </div>
+                            <div className="espacio-blanco"></div>
                         </div>
                     </div>
                     <div className="miembro">
@@ -70,6 +71,7 @@ export default function Conocenos() {
                                     </a>
                                 </div>
                             </div>
+                            <div className="espacio-blanco"></div>
                         </div>
                     </div>
                     <div className="miembro">
@@ -95,6 +97,7 @@ export default function Conocenos() {
                                     </a>
                                 </div>
                             </div>
+                            <div className="espacio-blanco"></div>
                         </div>
                     </div>
                 </div>
