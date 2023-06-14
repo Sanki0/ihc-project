@@ -15,7 +15,7 @@
 }
 
 .conocenos-descripcion{
-    height: 50vh;
+    height: 60vh;
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
@@ -25,8 +25,8 @@
 .conocenos-descripcion p{
     width: 85%;
     font-family: 'Harmattan', sans-serif;
-    font-size: 0.9rem;
-    text-align: justify;
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 .conocenos-miembros{
@@ -38,18 +38,84 @@
     display: flex;
 }
 
-.miembro p{
-    text-align:center;
-    font-size: 0.7rem;
-}
-
-.miembro img{
-    width: 20%;
-    height: 20%;
-}
-
 .miembro .foto-img {
     width: 150px;
     height: 150px;
     border-radius: 90px;
+    margin-right: 1vw;
+}
+
+.datos{
+    height: 100%;
+    display: grid;
+    /* grid-template-rows: 10% 60% 30%; */
+}
+
+/* .datos-nombre {
+    height: 5vh;
+    text-align: center;
+    font-size: 0.7rem;
+    background: linear-gradient(90deg, #FFD662, #FF80BF, #EF5097, #6868AC, #5B8CC5, #6868AC, #EF5097, #FF80BF, #FFD662);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: rotateGradient 5s infinite linear;
+  }
+  
+  @keyframes rotateGradient {
+    0% {
+      background-position: left;
+    }
+    50% {
+      background-position: right;
+    }
+    100% {
+      background-position: left;
+    }
+  }
+ */
+ 
+.datos-nombre{
+    height: 5vh;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Harmattan', sans-serif;
+    background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    background-position: left;
+    animation: shine 3s infinite;
+}
+
+@keyframes shine {
+    0% {
+      background-position: left;
+    }
+    50% {
+      background-position: right;
+    }
+    100% {
+      background-position: left;
+    }
+  }
+
+.datos-descripcion{
+    height: 21.5vh;
+    font-size: 0.5rem;
+    font-family: 'Harmattan', sans-serif;
+    text-align:justify;
+
+}
+
+.datos-redes {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+}
+  
+.redsocial {
+    flex: 1; /* Hace que cada espacio ocupe todo el espacio disponible */
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
 }
