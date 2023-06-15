@@ -54,7 +54,7 @@ export default function Conocenos() {
                             <p className="datos-descripcion">Bachiller en Ciencia de la Computacion(UNI), entusiasta de la tecnología con una pasión por el mundo de Linux, infraestructura y desarrollo full stack. 
                             Posee experiencia en la administración de sistemas, virtualización y despliegue de aplicaciones. 
                             Su enfoque versátil le permite trabajar en diferentes capas de una aplicación, desde el back-end hasta el front-end</p>
-                            <div class="datos-redes">
+                            <div className ="datos-redes">
                                 <div className="redsocial">
                                     <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
                                         <FaLinkedin />
@@ -80,7 +80,7 @@ export default function Conocenos() {
                             <h4 className="datos-nombre">Gabriela Colque</h4>
                             <p className="datos-descripcion">Bachiller en Ciencia de la Computacion(UNI), se especializa en el campo de la Inteligencia Artificial. 
                             Con un profundo interés en el aprendizaje automático y el procesamiento del lenguaje natural, busca aplicar sus conocimientos en proyectos innovadores. </p>
-                            <div class="datos-redes">
+                            <div className="datos-redes">
                                 <div className="redsocial">
                                     <a href="https://www.linkedin.com/aberrospic" target="_blank" rel="noopener noreferrer">
                                         <FaLinkedin />
