@@ -22,7 +22,7 @@ export default function Conocenos() {
                 </div>
                 <div className="conocenos-miembros">
                     <div className="miembro">
-                        <img src={foto1} alt="foto1" className="foto-img"/>
+                        <div className="image-box glowing"></div>
                         <div className="datos">
                             <h4 className="datos-nombre">Sebastian Ferreyra</h4>
                             <p className="datos-descripcion">Bachiller en Ciencia de la Computación (UNI), con experiencia en desarrollo web y un interés particular en el área de DevOps, 
@@ -48,7 +48,7 @@ export default function Conocenos() {
                         </div>
                     </div>
                     <div className="miembro">
-                        <img src={foto2} alt="foto1" className="foto-img" />
+                        <div className="image-box glowing"></div>
                         <div className="datos">
                             <h4 className="datos-nombre">Abraham Berrospi</h4>
                             <p className="datos-descripcion">Bachiller en Ciencia de la Computacion(UNI), entusiasta de la tecnología con una pasión por el mundo de Linux, infraestructura y desarrollo full stack. 
@@ -75,7 +75,7 @@ export default function Conocenos() {
                         </div>
                     </div>
                     <div className="miembro">
-                        <img src={foto3} alt="foto1" className="foto-img"/>
+                        <div className="image-box glowing"></div>
                         <div className="datos">
                             <h4 className="datos-nombre">Gabriela Colque</h4>
                             <p className="datos-descripcion">Bachiller en Ciencia de la Computacion(UNI), se especializa en el campo de la Inteligencia Artificial. 

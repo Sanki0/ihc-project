@@ -69,6 +69,7 @@ table {
     /* url("/noise.svg"); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  position:sticky; /* Para que funcione "glowing" de "Conocenos" */
 }
 
 
