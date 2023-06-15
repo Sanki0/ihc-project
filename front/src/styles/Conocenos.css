@@ -80,7 +80,8 @@
   position: absolute;
   left: -2px;
   top: -2px;
-  background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, #ad27ad, #bd2681, #6868AC, #ff3300de, #8cd2ff);
+  /* background: linear-gradient(45deg, #bd2681, #ff3300de, #ff6600d9, #ad27ad, #8cd2ff, #6868AC, #00ff66, #13ff13, #e8f74d, #FFB650, #FFD662); */ /* en orden */
+  background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #ad27ad, #bd2681, #6868AC,#13ff13, #ff3300de, #8cd2ff, #FFB650, #FFD662);
   background-size: 400%;
   width: calc(100% + 5px);
   height: calc(100% + 5px);
