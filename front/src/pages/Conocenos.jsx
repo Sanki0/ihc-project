@@ -12,7 +12,9 @@ export default function Conocenos() {
             </div>
             <div className="conocenos-container">
                 <div className="conocenos-descripcion">
-                    {/* <p></p> */}
+                    <div className="conocenos-descripcion-espacio"></div>
+                    <h3>Nuestro&nbsp;&nbsp;equipo</h3>
+                    <div className="conocenos-descripcion-espacio"></div>
                     <p>Somos un equipo de profesionales apasionados por la tecnología y comprometidos con la excelencia en el desarrollo de software. Nos especializamos en diferentes áreas para ofrecer soluciones innovadoras y de calidad a nuestros clientes.<br></br>
                     Nuestro equipo se caracteriza por su colaboración estrecha, su creatividad y su enfoque en la excelencia técnica. Trabajamos de la mano con nuestros clientes para comprender sus necesidades y ofrecer soluciones personalizadas que impulsen su éxito. 
                     Estamos comprometidos con la calidad, la innovación y el cumplimiento de los plazos de entrega.

@@ -21,14 +21,35 @@
 }
 
 .conocenos-descripcion{
-    height: 60vh;
+    height: 80vh;
     width: 43%;
     margin-top: auto;
     margin-bottom: auto;
     overflow: hidden;
 }
 
+.conocenos-descripcion-espacio{
+  height: 5vh;
+}
+
+.conocenos-descripcion h3{
+  height: 10vh;
+  font-size: 1.5rem;
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Sniglet', cursive;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #F9f1cc;
+  text-shadow: 5px 5px 0px #FFB650, 
+    10px 10px 0px #FFD662, 
+    15px 15px 0px  #FF80BF, 
+    20px 20px 0px #EF5097, 
+    25px 25px 0px #6868AC, 
+    30px 30px 0px #90B1E0;
+}
+
 .conocenos-descripcion p{ 
+    height: 60vh;
     width: 100%;
     font-family: 'Harmattan', sans-serif;
     font-size: 0.8rem;
