@@ -6,6 +6,7 @@ import { useState } from "react";
 export default function Home() {
 
     const [counter, setCounter] = useState(0);
+    const [showCounter, setShowCounter] = useState(false);
 
     const counterTimer = () => {
         let counter2 = counter;
@@ -27,49 +28,30 @@ export default function Home() {
             <div className="Menu">
                 <Menu3 />
             </div>
-            <div className="Nivel">
-                <div className="cont-1"></div>
-                <h1>Comenzara en 5 segundos al elegir el nivel</h1>
-                <div className="cont-2"></div>
-                <div className="button-container">
-                    <div className="button-item">
-                        {counter === 0 ? (
-                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
-                            Nivel 1
-                            </button>
-                        ) : (
-                            <h1>{counter}</h1>
-                        )}
-                    </div>
-                    <div className="button-item">
-                        {counter === 0 ? (
-                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
-                            Nivel 2
-                            </button>
-                        ) : (
-                            <h1>{counter}</h1>
-                        )}
-                    </div>
-                    <div className="button-item">
-                        {counter === 0 ? (
-                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
-                            Nivel 3
-                            </button>
-                        ) : (
-                            <h1>{counter}</h1>
-                        )}
-                    </div>
-                    <div className="button-item">
-                        {counter === 0 ? (
-                            <button onClick={counterTimer} className="button-nivel slide-down delay-1" role="button">
-                            Nivel 4
-                            </button>
-                        ) : (
-                            <h1>{counter}</h1>
-                        )}
+            {showCounter ? <h1>{counter}</h1> :
+                <div className="Nivel">
+                    <div className="cont-1"></div>
+                    <h1>Comenzara en 5 segundos al elegir el nivel</h1>
+                    <div className="cont-2"></div>
+                    <div className="button-container">
+                        {niveles.map((nivel, index) => {
+                            return (
+                                <div key={index} className="button-item">
+                                    <button
+                                        className="button-nivel slide-down delay-1"
+                                        onClick={() => {
+                                            setShowCounter(true);
+                                            counterTimer();
+                                        }}>
+                                        {nivel}
+                                    </button>
+                                </div>
+                            )
+                        })}
                     </div>
                 </div>
-            </div>
+            }
+
         </div>
     );
 }
