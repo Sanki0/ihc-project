@@ -28,11 +28,12 @@
     overflow: hidden;
 }
 
-.conocenos-descripcion p{
+.conocenos-descripcion p{ 
     width: 100%;
     font-family: 'Harmattan', sans-serif;
     font-size: 0.8rem;
     text-align: center;
+    overflow: hidden;
 }
 
 .conocenos-miembros{
