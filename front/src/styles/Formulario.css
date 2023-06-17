@@ -41,7 +41,7 @@
 }
 
 .Formulario-Todo{
-    height: 63vh;
+    height: 60vh;
     width: 95%;
     display: flex;
     margin-left: auto;
@@ -51,19 +51,15 @@
     align-content: flex-start; /* Alinea los elementos al principio del contenedor */
 }
 
-.Formulario-derecha{
-    height: 10%;
-    width: 50%;
-}
-
 .Formulario-izquierda{
-    
     height: 100%;
     width: 50%;
+    overflow: hidden;
 }
 
-.Formulario-Form{
-    height: 40vh;
+.Formulario-derecha{
+    height: 100%;
+    width: 50%;
 }
 
 .Formulario-cont2{
@@ -78,6 +74,7 @@
     font-size: 0.45rem;
     font-family: 'Harmattan', sans-serif;
     height: 13vh;
+    
 }
 
 .Formulario-Form-Nombre{
@@ -94,15 +91,18 @@
 
 }
 
+.Formulario-Form{
+    height: 100%;
+}
 
 .Formulario form{
-    height: 50%;
+    height: 100%;
 }
 
 .Formulario input[type="text"],
 .Formulario input[type="email"],
 .Formulario textarea {
-    width: 85vh;
+    width: 85%;
     height: 40px;
     padding: 0 8px;
     border-radius: 1px;
@@ -118,7 +118,7 @@
 .Formulario textarea:focus {
     outline: none;
     border: 3px solid transparent;
-    background-image: linear-gradient(rgb(231, 231, 231), white), linear-gradient(315deg, rgb(236, 160, 255), rgb(170, 178, 255), rgb(132, 255, 201));
+    background-image: linear-gradient(white, white), linear-gradient(315deg, rgb(236, 160, 255), rgb(170, 178, 255), rgb(132, 255, 201));
     background-origin: border-box;
     background-clip: padding-box, border-box;
     animation: bg-hue 2s linear infinite;
@@ -133,17 +133,45 @@
     }
 }
 
-.Formulario-Form-Mensaje textarea {
-    height: 100px;
+.Formulario-Form-Mensaje{
+    height: 20vh;
 }
 
-.Formulario-Form-Nombre,
+.Formulario-Form-Mensaje textarea {
+    height: 100%;
+    resize: none;
+}
+
+.Formulario-Form p{
+    font-size: 13px;
+    color: rgb(118, 118, 118);
+    height: 4vh;
+    font-style: italic;
+}
+
+.Formulario-Form a{
+    font-size: 13px;
+    text-decoration: none;
+    color: inherit;
+    color: black;
+}
+
+.boton-enviar{
+    /* margin-top: 1200px; */
+    position: absolute;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+/* .Formulario-Form-Nombre,
 .Formulario-Form-Correo,
 .Formulario-Form-Mensaje {
-  margin-bottom: 1vh; /* Puedes ajustar el valor según el espaciado deseado */
+  margin-bottom: 1vh; 
 }
 
 .Formularion-Datos{
     flex-grow: 1;
     
-}
+} */

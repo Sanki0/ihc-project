@@ -66,21 +66,26 @@ export default function Formulario() {
                     </p>
                 </div>
                 <div className="Formulario-derecha"> {/* Formulario */}
+                    {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
+                        Mandanos una sugerencia 
+                    </p>
+                    <div className="Titulo-Linea"></div> */}
                     <div className="Formulario-Form">
                         <form onSubmit={handleSubmit}>
                             <div className="Formulario-Form-Nombre">
                                 <label htmlFor="name">Name:</label>
-                                <input type="text" id="name" value={name} onChange={handleNameChange} />
+                                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off"/>
                             </div>
                             <div className="Formulario-Form-Correo">
                                 <label htmlFor="email">Email:</label>
-                                <input type="email" id="email" value={email} onChange={handleEmailChange} />
+                                <input type="email" id="email" value={email} onChange={handleEmailChange} autoComplete="off"/>
                             </div>
                             <div className="Formulario-Form-Mensaje">
                                 <label htmlFor="message">Message:</label>
-                                <textarea id="message" rows="4" value={message} onChange={handleMessageChange}></textarea>
+                                <textarea id="message" rows="4" value={message} onChange={handleMessageChange} autoComplete="off"></textarea>
                             </div>
-                            {/* <button type="submit">Submit</button> */}
+                            <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+                            <button className="boton-enviar" type="submit">Enviar</button>
                         </form>
                     </div>
                 </div>

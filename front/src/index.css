@@ -62,7 +62,14 @@ table {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-.todo {
+.todo{
+  background-color: #f2b4da;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position:sticky; /* Para que funcione "glowing" de "Conocenos" */
+}
+
+.todo-v2 {/* #f2b4da */ 
   background-image: 
     radial-gradient(at top left, #F0ACE0, transparent),
     radial-gradient(at top right, #FFA4B2, transparent),
