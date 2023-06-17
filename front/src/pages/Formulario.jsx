@@ -46,9 +46,10 @@ export default function Formulario() {
                     <p className="Formulario-cont2">
                         You’ve got some Q’s and we’ve got tons and tons of A’s. Ask us about an order, a product, what you should name your puppy…anything we can help with! Don’t be shy - we promise we’re really nice 👉
                     </p>
-                    <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "8vh"}}>
+                    <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
                         Información de contacto {/* Contáctanos  */}
                     </p>
+                    <div className="Titulo-Linea"></div>
                     <p className="Formulario-info">
                         <BsTelephonePlus style={{color: "#404040", height: "30px"}}/>
                         (+51) 936 824 941

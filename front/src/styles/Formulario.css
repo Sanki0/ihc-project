@@ -31,6 +31,15 @@
       30px 30px 0px #90B1E0;
 }
 
+.Titulo-Linea{
+    text-align: center;
+    height: 5vh;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px rgba(45, 45, 45, 0.822) solid;
+}
+
 .Formulario-Todo{
     height: 63vh;
     width: 95%;
