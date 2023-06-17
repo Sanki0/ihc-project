@@ -7,8 +7,9 @@ export default function Home() {
 
     const [counter, setCounter] = useState(0);
     const [showCounter, setShowCounter] = useState(false);
+    const [selectedNivel, setSelectedNivel] = useState("");
 
-    const counterTimer = () => {
+    const counterTimer = (nivelParameter) => {
         let counter2 = counter;
         const interval = setInterval(() => {
             console.log(counter);
@@ -16,12 +17,12 @@ export default function Home() {
             setCounter(counter2);
             if (counter2 === 5) {
                 clearInterval(interval);
-                window.location.href = "/juego";
+                window.location.href = `/juego?nivel=${nivelParameter}`;
             }
         }, 1000);
     };
 
-    const niveles = ["Nivel1", "Nivel2"]
+    const niveles = ["Nivel1", "Nivel2", "Nivel3"]
 
     return (
         <div>
@@ -40,8 +41,11 @@ export default function Home() {
                                     <button
                                         className="button-nivel slide-down delay-1"
                                         onClick={() => {
+                                            console.log(index);
+                                            setSelectedNivel(nivel);
+                                            console.log(selectedNivel);
                                             setShowCounter(true);
-                                            counterTimer();
+                                            counterTimer(nivel);
                                         }}>
                                         {nivel}
                                     </button>

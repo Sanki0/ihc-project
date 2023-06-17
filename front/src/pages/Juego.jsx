@@ -1,16 +1,57 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link, Outlet, useLocation } from "react-router-dom"
 import Menu from '../components/Menu'
 import '../styles/Home.css'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import * as tf from "@tensorflow/tfjs";
 import Webcam from "react-webcam";
 import { drawRect } from "../utilities/utilities";
 
+import { vowels } from "../utilities/nivel1";
+import { consonants } from "../utilities/nivel2";
+import { complexWords } from "../utilities/nivel3";
 
 export default function Juego() {
     const canvasRef = useRef(null);
     const webcamRef = useRef(null);
+    const location = useLocation();
+    const [word, setWord] = useState("");
+
+    useEffect(() => {
+        const searchParams = new URLSearchParams(location.search);
+        const nivel = searchParams.get("nivel");
+        console.log("Selected nivel:", nivel);
+        // setNivel(nivel);
+        let words = [];
+
+        switch (nivel) {
+            case "Nivel1":
+                words = vowels;
+                break;
+            case "Nivel2":
+                words = consonants;
+                break;
+            case "Nivel3":
+                words = complexWords;
+                break;
+            default:
+                words = [];
+
+        }
+
+        const keys = Object.keys(words);
+        const randomKey = keys[Math.floor(Math.random() * keys.length)];
+        const randomElement = words[randomKey];
+
+        setWord(randomElement);
+
+        console.log(randomElement);
+
+
+    }, [location]);
+
+
+
 
     const runCoco = async () => {
         // 3. TODO - Load network 
@@ -110,6 +151,10 @@ export default function Juego() {
                     }}
                 />
 
+            </div>
+
+            <div>
+                <h1>{word}</h1>
             </div>
 
             <div>
