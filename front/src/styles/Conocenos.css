@@ -195,7 +195,7 @@
   height: 5vw; /* Ajusta el alto según tus necesidades */
   margin: 0;
   padding: 0;
-  color: #48486d;
+  color: #404040; /* #48486d; */
 }
 
 .espacio-blanco{

@@ -1,0 +1,140 @@
+.Formulario{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    font-family: 'Harmattan', sans-serif;
+    text-align: center;
+}
+
+.Formulario-Menu{
+    height: 20vh;
+    width: 100%;
+}
+
+.Formulario-cont1{
+    height: 4vh;
+}
+
+.Formulario-Titulo{
+    height: 13vh;       /* 20+4+13=37 */
+    font-family: 'Sniglet', cursive;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #F9f1cc;
+    text-shadow: 5px 5px 0px #FFB650, 
+      10px 10px 0px #FFD662, 
+      15px 15px 0px  #FF80BF, 
+      20px 20px 0px #EF5097, 
+      25px 25px 0px #6868AC, 
+      30px 30px 0px #90B1E0;
+}
+
+.Formulario-Todo{
+    height: 63vh;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow: hidden; */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en caso de falta de espacio */
+    align-content: flex-start; /* Alinea los elementos al principio del contenedor */
+}
+
+.Formulario-derecha{
+    height: 10%;
+    width: 50%;
+}
+
+.Formulario-izquierda{
+    
+    height: 100%;
+    width: 50%;
+}
+
+.Formulario-Form{
+    height: 40vh;
+}
+
+.Formulario-cont2{
+    height: 12vh;
+    font-size: 0.55rem;
+    font-family: 'Harmattan', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Formulario-info{
+    font-size: 0.45rem;
+    font-family: 'Harmattan', sans-serif;
+    height: 13vh;
+}
+
+.Formulario-Form-Nombre{
+    height: 7vh;
+}
+
+.Formulario-Form-Correo{
+    height: 7vh;
+
+}
+
+.Formulario-Form-Mensaje{
+    height: 7vh;
+
+}
+
+
+.Formulario form{
+    height: 50%;
+}
+
+.Formulario input[type="text"],
+.Formulario input[type="email"],
+.Formulario textarea {
+    width: 85vh;
+    height: 40px;
+    padding: 0 8px;
+    border-radius: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    background:rgba(255, 255, 255, 0.774);
+    font-family: Karla, sans-serif;
+    font-weight: 400;
+    font-size: 0.4rem;
+}
+  
+.Formulario input[type="text"]:focus,
+.Formulario input[type="email"]:focus,
+.Formulario textarea:focus {
+    outline: none;
+    border: 3px solid transparent;
+    background-image: linear-gradient(rgb(231, 231, 231), white), linear-gradient(315deg, rgb(236, 160, 255), rgb(170, 178, 255), rgb(132, 255, 201));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    animation: bg-hue 2s linear infinite;
+    font-family: Karla, sans-serif;
+    font-size: 0.4rem;
+}
+  
+/* @keyframes for the gradient animation */
+@keyframes bg-hue {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.Formulario-Form-Mensaje textarea {
+    height: 100px;
+}
+
+.Formulario-Form-Nombre,
+.Formulario-Form-Correo,
+.Formulario-Form-Mensaje {
+  margin-bottom: 1vh; /* Puedes ajustar el valor según el espaciado deseado */
+}
+
+.Formularion-Datos{
+    flex-grow: 1;
+    
+}
