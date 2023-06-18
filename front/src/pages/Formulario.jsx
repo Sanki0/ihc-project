@@ -5,33 +5,35 @@ import React, { useState } from 'react';
 import { BsTelephonePlus } from 'react-icons/bs';
 import { TfiEmail } from 'react-icons/tfi';
 import { BsPinMap } from 'react-icons/bs';
+import 'regenerator-runtime/runtime'
+import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
 
 export default function Formulario() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-  
+
     const handleNameChange = (event) => {
-      setName(event.target.value);
+        setName(event.target.value);
     };
-  
+
     const handleEmailChange = (event) => {
-      setEmail(event.target.value);
+        setEmail(event.target.value);
     };
-  
+
     const handleMessageChange = (event) => {
-      setMessage(event.target.value);
+        setMessage(event.target.value);
     };
-  
+
     const handleSubmit = (event) => {
-      event.preventDefault();
-      // Lógica para manejar el envío del formulario
-      console.log('Nombre:', name);
-      console.log('Email:', email);
-      console.log('Mensaje:', message);
+        event.preventDefault();
+        // Lógica para manejar el envío del formulario
+        console.log('Nombre:', name);
+        console.log('Email:', email);
+        console.log('Mensaje:', message);
     };
-    
+
     return (
         <div className="Formulario">
             <div className="Formulario-Menu">
@@ -46,22 +48,22 @@ export default function Formulario() {
                     <p className="Formulario-cont2">
                         You’ve got some Q’s and we’ve got tons and tons of A’s. Ask us about an order, a product, what you should name your puppy…anything we can help with! Don’t be shy - we promise we’re really nice 👉
                     </p>
-                    <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
+                    <p style={{ fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh" }}>
                         Información de contacto {/* Contáctanos  */}
                     </p>
                     <div className="Titulo-Linea"></div>
                     <p className="Formulario-info">
-                        <BsTelephonePlus style={{color: "#404040", height: "30px"}}/>
+                        <BsTelephonePlus style={{ color: "#404040", height: "30px" }} />
                         (+51) 936 824 941
                         {/* <br></br>(+51) 995 126 424 */}
                     </p>
                     <p className="Formulario-info">
-                        <TfiEmail style={{color: "#404040", height: "30px"}}/>
+                        <TfiEmail style={{ color: "#404040", height: "30px" }} />
                         aberrospic@uni.pe
                         {/* <br></br>sferreyraa@uni.pe */}
                     </p>
                     <p className="Formulario-info">
-                        <BsPinMap style={{color: "#404040", height: "30px"}}/>
+                        <BsPinMap style={{ color: "#404040", height: "30px" }} />
                         Jirón Enrique Barrón 1381
                     </p>
                 </div>
@@ -74,11 +76,11 @@ export default function Formulario() {
                         <form onSubmit={handleSubmit}>
                             <div className="Formulario-Form-Nombre">
                                 <label htmlFor="name">Name:</label>
-                                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off"/>
+                                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" />
                             </div>
                             <div className="Formulario-Form-Correo">
                                 <label htmlFor="email">Email:</label>
-                                <input type="email" id="email" value={email} onChange={handleEmailChange} autoComplete="off"/>
+                                <input type="email" id="email" value={email} onChange={handleEmailChange} autoComplete="off" />
                             </div>
                             <div className="Formulario-Form-Mensaje">
                                 <label htmlFor="message">Message:</label>
@@ -91,7 +93,7 @@ export default function Formulario() {
                 </div>
             </div>
 
-{/*                 <div className="Formulario-Form-Nombre">
+            {/*                 <div className="Formulario-Form-Nombre">
                     <input type="text" label="name" placeholder="Focus the input and see the colors" />
                 </div>
                 <div className="Formulario-Form-Correo">
@@ -103,8 +105,8 @@ export default function Formulario() {
                 <div className="Formularion-Datos">
                     c
                 </div> */}
-                
-            
+
+
         </div>
     );
 }
