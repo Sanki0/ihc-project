@@ -14,6 +14,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom"
+import RegisterName from './pages/RegisterName.jsx'
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
     path: '/juego',
     element: <Juego />,
   },
+  {
+    path: '/registro',
+    element: <RegisterName />,
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
