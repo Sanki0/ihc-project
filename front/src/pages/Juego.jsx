@@ -1,6 +1,6 @@
 import { Link, Outlet, useLocation } from "react-router-dom"
 import Menu from '../components/Menu'
-import '../styles/Home.css'
+import '../styles/Juego.css'
 
 import { useEffect, useRef, useState } from 'react'
 import * as tf from "@tensorflow/tfjs";
@@ -118,43 +118,51 @@ export default function Juego() {
 
 
     return (
-        <div className="Menu">
-            <div >
-                <Webcam
-                    ref={webcamRef}
-                    muted={true}
-                    style={{
-                        position: "absolute",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                        left: 0,
-                        right: 0,
-                        textAlign: "center",
-                        zindex: 9,
-                        width: 640,
-                        height: 480,
-                    }}
-                />
-
-                <canvas
-                    ref={canvasRef}
-                    style={{
-                        position: "absolute",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                        left: 0,
-                        right: 0,
-                        textAlign: "center",
-                        zindex: 8,
-                        width: 640,
-                        height: 480,
-                    }}
-                />
-
+        <div className="All-Juego-jsx">
+            <div className="Menu">
+                <Menu />
             </div>
+            <div className="Juego">
 
-            <div>
-                <h1>{word}</h1>
+                <div className="Word">
+                    <h1>{word}</h1>
+                </div>
+
+                <div className="Camera">
+                    <Webcam
+                        ref={webcamRef}
+                        muted={true}
+                        style={{
+                            position: "absolute",
+                            marginLeft: "auto",
+                            marginRight: "auto",
+                            // left: 0,
+                            // right: 0,
+                            // textAlign: "center",
+                            // zindex: 9,
+                            width: 640,
+                            height: 480,
+                        }}
+                    />
+
+                    <canvas
+                        ref={canvasRef}
+                        style={{
+                            position: "absolute",
+                            marginLeft: "auto",
+                            marginRight: "auto",
+                            // left: 0,
+                            // right: 0,
+                            // textAlign: "center",
+                            // zindex: 8,
+                            width: 640,
+                            height: 480,
+                        }}
+                    />
+
+                </div>
+
+
             </div>
 
             <div>

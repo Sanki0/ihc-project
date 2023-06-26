@@ -1,31 +1,55 @@
-.Menu{
-    height: 20%;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .Home{
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    height: 80%;
-  }
-  
-  .Home h1{
-    height: 20%;
-  }
-  
-  .Home h2{
-    height: 20%;
-  }
-  
-  .Home img{
-    height: 40%;
-  }
-  
-  /* .Hola{
+.Menu {
+  height: 20vh;
+  width: 100%;
+  color: #074F57;
+  z-index: 1;
+}
+
+.Home {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 80%;
+}
+
+.Home h1 {
+  height: 20%;
+}
+
+.Home h2 {
+  height: 20%;
+}
+
+.Home img {
+  height: 40%;
+}
+
+/* .Hola{
     height: 10%;
   } */
-  
+
+.Juego {
+  display: flex;
+  align-items: center;
+}
+
+/* .Camera {
+  height: 20%;
+  width: 50%;
+  float: right;
+}
+
+.Word {
+  height: 20%;
+  width: 50%;
+  float: left;
+} */
+
+.Camera {
+  flex: 1;
+}
+
+.Word {
+  flex: 1;
+}

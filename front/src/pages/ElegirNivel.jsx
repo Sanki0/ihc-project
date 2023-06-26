@@ -29,7 +29,7 @@ export default function Home() {
             <div className="Menu">
                 <Menu />
             </div>
-            {showCounter ? <h1>{counter}</h1> :
+            {showCounter ? <h1 className="counter-center">{counter}</h1> :
                 <div className="Nivel">
                     <div className="cont-1">
                         <h1>Demuestra&nbsp;&nbsp;tus&nbsp;&nbsp;habilidades&nbsp;&nbsp;
