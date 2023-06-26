@@ -6,7 +6,7 @@
 }
 
 .conocenos-Menu{
-    height: 20vh;
+    height: 18vh;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
@@ -22,30 +22,26 @@
 
 .conocenos-descripcion{
     height: 80vh;
-    width: 43%;
+    width: 50%;
     margin-top: auto;
     margin-bottom: auto;
     overflow: hidden;
 }
 
 .conocenos-descripcion-espacio{
-  height: 5vh;
+  height: 7vh;
 }
 
 .conocenos-descripcion h3{
-  height: 10vh;
+  height: 6vh;
   font-size: 1.4rem;
   /* font-family: 'Pacifico', cursive; */
   font-family: 'Sniglet', cursive;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #F9f1cc;
-  text-shadow: 5px 5px 0px #FFB650, 
-    10px 10px 0px #FFD662, 
-    15px 15px 0px  #FF80BF, 
-    20px 20px 0px #EF5097, 
-    25px 25px 0px #6868AC, 
-    30px 30px 0px #90B1E0;
+  color: #5C5147;
+  text-shadow: 5px 5px 0px #ffffff;
+
 }
 
 .conocenos-descripcion p{ 
@@ -58,11 +54,11 @@
 }
 
 .conocenos-miembros{
-    width: 57%;
+    width: 58%;
 }
 
 .miembro{
-    height: 33.33%;
+    height: 33%;
     display: flex;
     overflow: hidden; /* comentado para que se muestre glowing */
 }
@@ -103,7 +99,7 @@
   left: -2px;
   top: -2px;
   /* background: linear-gradient(45deg, #bd2681, #ff3300de, #ff6600d9, #ad27ad, #8cd2ff, #6868AC, #00ff66, #13ff13, #e8f74d, #FFB650, #FFD662); */ /* en orden */
-  background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #ad27ad, #bd2681, #6868AC,#13ff13, #ff3300de, #8cd2ff, #FFB650, #FFD662);
+  background: linear-gradient(45deg,  #A9B4A4, #D27C2C, #A88E7A, #ffffff);
   background-size: 400%;
   width: calc(100% + 5px);
   height: calc(100% + 5px);
