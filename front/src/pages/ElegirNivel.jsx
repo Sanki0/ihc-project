@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom"
-import Menu3 from '../components/Menu3'
+import Menu from '../components/Menu'
 import '../styles/ElegirNivel.css'
 import { useState } from "react";
 
@@ -27,13 +27,14 @@ export default function Home() {
     return (
         <div>
             <div className="Menu">
-                <Menu3 />
+                <Menu />
             </div>
             {showCounter ? <h1>{counter}</h1> :
                 <div className="Nivel">
-                    <div className="cont-1"></div>
-                    <h1>Demuestra tus habilidades</h1>
-                    <h1>deletreando con señas</h1>
+                    <div className="cont-1">
+                        <h1>Demuestra&nbsp;&nbsp;tus&nbsp;&nbsp;habilidades&nbsp;&nbsp;
+                            deletreando&nbsp;&nbsp;con&nbsp;&nbsp;señas</h1>
+                    </div>
                     <div className="cont-2"></div>
                     <div className="button-container">
                         {niveles.map((nivel, index) => {
