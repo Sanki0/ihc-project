@@ -1,0 +1,40 @@
+.All-Acerca-jsx{
+    height: 20vh;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Acerca-Menu{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.Acerca{
+    height: 80vh;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Acerca-h1.Acerca-h1-1{
+    height: 10vh;
+}
+
+.Acerca-paragraph.Acerca-paragraph-1 {
+    height: 20vh;
+}
+
+.Acerca-paragraph.Acerca-paragraph-2 {
+    height: 30vh;
+}
+
+.Acerca-paragraph.Acerca-paragraph-3 {
+    height: 10vh;
+}
+
+.Acerca-paragraph.Acerca-paragraph-4 {
+    height: 10vh;
+}

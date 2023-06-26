@@ -9,6 +9,7 @@ import Nombre from './pages/Nombre.jsx'
 import ElegirNivel from './pages/ElegirNivel.jsx'
 import ComenzarNivel from './pages/ComenzarNivel.jsx'
 import Juego from './pages/Juego.jsx'
+import Acerca from './pages/Acerca.jsx'
 
 import {
   createBrowserRouter,
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: '/registro',
     element: <RegisterName />,
+  },
+  {
+    path: '/acerca',
+    element: <Acerca />,
   }
 ])
 
