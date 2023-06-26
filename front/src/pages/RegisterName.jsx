@@ -54,6 +54,11 @@ export default function RegisterName() {
   const handleSubmit = (event) => {
     event.preventDefault();
     alert(`Tu nombre es ${name}`);
+    // change to elegir-nivel
+    // window.location.href = `/juego?nivel=${nivelParameter}`;
+    console.log("name", name)
+
+    window.location.href = `elegir-nivel?nombre=${name}`;
   };
 
   return (

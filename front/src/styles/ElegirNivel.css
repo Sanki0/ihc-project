@@ -117,3 +117,9 @@
   height: 100%;
   width: 100%;
 }
+
+.elegir-nivel-nombre {
+  height: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}

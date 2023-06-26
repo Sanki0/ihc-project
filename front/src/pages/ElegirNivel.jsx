@@ -1,13 +1,22 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link, Outlet, useLocation } from "react-router-dom"
 import Menu from '../components/Menu'
 import '../styles/ElegirNivel.css'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
 
     const [counter, setCounter] = useState(0);
     const [showCounter, setShowCounter] = useState(false);
     const [selectedNivel, setSelectedNivel] = useState("");
+    const [name, setName] = useState("")
+    const location = useLocation();
+
+    useEffect(() => {
+        const searchParams = new URLSearchParams(location.search);
+        const nombre = searchParams.get("nombre");
+        console.log("nombre :", nombre);
+        setName(nombre)
+    }, [location]);
 
     const counterTimer = (nivelParameter) => {
         let counter2 = counter;
@@ -31,6 +40,7 @@ export default function Home() {
             </div>
             {showCounter ? <h1 className="counter-center">{counter}</h1> :
                 <div className="Nivel">
+                    <div className="elegir-nivel-nombre">Hola {name}</div>
                     <div className="cont-1">
                         <h1>Demuestra&nbsp;&nbsp;tus&nbsp;&nbsp;habilidades&nbsp;&nbsp;
                             deletreando&nbsp;&nbsp;con&nbsp;&nbsp;señas</h1>

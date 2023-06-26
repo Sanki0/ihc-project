@@ -21,7 +21,7 @@ export default function Home() {
         <div className="boton">
           <div className="home-boton ">
             <button className="button-home home-slide-down home-delay-1" role="button">   {/* 49% */}
-              <Link className="home-link" to="elegir-nivel">Comenzar</Link>
+              <Link className="home-link" to="registro">Comenzar</Link>
               <Outlet />
             </button>
           </div>
