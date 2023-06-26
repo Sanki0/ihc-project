@@ -3,6 +3,7 @@ import 'regenerator-runtime/runtime'
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import microPhoneIcon from '../assets/microphone.svg';
 import Menu from '../components/Menu'
+import '../styles/RegisterName.css'
 
 export default function RegisterName() {
   const [name, setName] = useState('');
@@ -56,62 +57,62 @@ export default function RegisterName() {
   };
 
   return (
-    <div className="container">
-      <div className="microphone-wrapper">
-        <div
-          className="microphone-icon-container"
-          ref={microphoneRef}
-          onClick={handleListing}
-        >
-          <img src={microPhoneIcon} className="microphone-icon" />
-        </div>
-        <div className="microphone-status">
-          {isListening ? "Escuchando........." : "Click para empezar a escuchar"}
-        </div>
-        {isListening && (
-          <button className="microphone-stop btn" onClick={stopHandle}>
-            Stop
-          </button>
-        )}
+    <div className="All-Register-jsx">
+
+      <div className="Formulario-Menu">
+        <Menu />
       </div>
 
-      {transcript && (
+
+      <div className="Formulario-Todo-RegisterName">
+
+        <div className="Formulario-derecha-RegisterName"> {/* Formulario */}
+          {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
+                        Mandanos una sugerencia 
+                    </p>
+                    <div className="Titulo-Linea"></div> */}
+          <div className="Formulario-Form">
+            <form onSubmit={handleSubmit}>
+              <div className="Formulario-Form-Nombre-RegisterName">
+                <label htmlFor="name">Nombre:</label>
+                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" />
+              </div>
+
+              <button className="boton-enviar" type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+
+
+        <div className='center-elements' ref={microphoneRef} onClick={handleListing}>
+          <img src={microPhoneIcon} className="microphone-icon-RegisterName" />
+        </div>
+        <div className="center-elements">
+          {isListening ? <p className='explain-text'> Escuchando... </p> : <p className='explain-text'>Puede llenar su nombre de manera manual o dando click al microfono (Comience con Nombre para que pueda ser completado correctamente) </p>}
+        </div>
+
+      </div>
+
+
+      {/* <div className="microphone-wrapper-RegisterName">
+        <div className="microphone-icon-container-RegisterName" ref={microphoneRef} onClick={handleListing}>
+          <img src={microPhoneIcon} className="microphone-icon-RegisterName" />
+        </div>
+        <div className="microphone-status-RegisterName">
+          {isListening ? "Escuchando..." : "Hablar"}
+        </div>
+      </div> */}
+
+      {/* {transcript && (
         <div className="microphone-result-container">
           <div className="microphone-result-text">{transcript}</div>
           <button className="microphone-reset btn" onClick={handleReset}>
             Reset
           </button>
         </div>
-      )}
+      )} */}
 
-      <div className="Formulario">
-        <div className="Formulario-Menu">
-          <Menu />
-        </div>
+    </div >
 
-        <div className="Formulario-Todo">
-
-          <div className="Formulario-derecha"> {/* Formulario */}
-            {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
-                        Mandanos una sugerencia 
-                    </p>
-                    <div className="Titulo-Linea"></div> */}
-            <div className="Formulario-Form">
-              <form onSubmit={handleSubmit}>
-                <div className="Formulario-Form-Nombre">
-                  <label htmlFor="name">Name:</label>
-                  <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" />
-                </div>
-
-                <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
-                <button className="boton-enviar" type="submit">Enviar</button>
-              </form>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
   );
 }

@@ -26,19 +26,19 @@ export default function Home() {
             </button>
           </div>
         </div>
-        
+
         <div className="home-cont-2-nivel"></div> {/* 65% */}
         <p className="home-slide-down home-delay-1">Este juego usará tu cámara web para analizar
           las formas de tus dedos. Todo se procesa localmente y no se enviarán ni
           almacenarán datos de la cámara web en ninguna parte</p> {/* 100% */}
       </div>
       {
-       /* 
-        Pagina de registar nombre
-       <RegisterName />
-       */
+        /* 
+         Pagina de registar nombre
+        <RegisterName />
+        */
       }
-    
+
     </div>
   );
 }

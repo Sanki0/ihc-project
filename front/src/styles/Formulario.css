@@ -1,52 +1,56 @@
-.microphone-icon{
+.microphone-icon {
     width: 100px;
     height: 100px;
     position: relative;
-    top: -140px; /* Ajusta la posición vertical de la imagen */
-  }
-.microphone-status{
+    top: -140px;
+    /* Ajusta la posición vertical de la imagen */
+}
+
+.microphone-status {
     width: 700px;
     height: 100px;
     position: relative;
     font-family: 'Harmattan', sans-serif;
     top: -790px;
 }
-.button{
+
+.button {
     margin-top: -750px;
-  }
-.form-button{
+}
+
+.form-button {
     height: 4vh;
 }
 
 .button-form {
-  height: 100%;
-  width: 20%;
-  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
-  border: 0;
-  border-radius: 40px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 2.5;
-  outline: transparent;
-  padding: 0 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
+    height: 100%;
+    width: 20%;
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
 }
 
-.formulario-espacio{
+.formulario-espacio {
     height: 4vh;
 }
 
-.Formulario{
+.Formulario {
     height: 100vh;
     width: 100vw;
     margin-left: auto;
@@ -56,14 +60,14 @@
     text-align: center;
 }
 
-.Formulario-Menu{
+.Formulario-Menu {
     height: 18vh;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
 }
 
-.Formulario-Titulo{
+.Formulario-Titulo {
     height: 10vh;
     font-size: 1rem;
     /* font-family: 'Pacifico', cursive; */
@@ -74,7 +78,7 @@
     text-shadow: 5px 5px 0px #ffffff;
 }
 
-.Titulo-Linea{
+.Titulo-Linea {
     text-align: center;
     height: 5vh;
     width: 35px;
@@ -83,18 +87,20 @@
     border-top: 3px rgba(45, 45, 45, 0.822) solid;
 }
 
-.Formulario-Todo{
+.Formulario-Todo {
     height: 80vh;
     width: 95vw;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     /* overflow: hidden; */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en caso de falta de espacio */
-    align-content: flex-start; /* Alinea los elementos al principio del contenedor */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en caso de falta de espacio */
+    align-content: flex-start;
+    /* Alinea los elementos al principio del contenedor */
 }
 
-.Formulario-izquierda{
+.Formulario-izquierda {
     height: 80vh;
     width: 50%;
     font-size: 0.8rem;
@@ -102,12 +108,12 @@
     overflow: hidden;
 }
 
-.Formulario-derecha{
+.Formulario-derecha {
     width: 50%;
     overflow: hidden;
 }
 
-.Formulario-cont2 p{
+.Formulario-cont2 p {
     height: 12vh;
     font-size: 0.55rem;
     font-family: 'Harmattan', sans-serif;
@@ -115,15 +121,16 @@
     margin-right: auto;
 }
 
-.Formulario-info{
+.Formulario-info {
     font-size: 0.45rem;
     font-family: 'Harmattan', sans-serif;
     height: 13vh;
-    
+
 }
 
-.Formulario-Form-Nombre{
-    height: 10vh;/* 34px */
+.Formulario-Form-Nombre {
+    height: 10vh;
+    /* 34px */
     text-align: left;
     font-size: 0.9rem;
     font-family: 'Harmattan', sans-serif;
@@ -135,22 +142,9 @@
     animation: shine 3s infinite;
 }
 
-.Formulario-Form-Correo{
-    height: 10vh;/* 34px */
-    text-align: left;
-    font-size: 0.9rem;
-    font-family: 'Harmattan', sans-serif;
-    background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200%;
-    background-position: left;
-    animation: shine 3s infinite;
-
-}
-
-.Formulario-Form-Mensaje{
-    height: 10vh;/* 34px */
+.Formulario-Form-Correo {
+    height: 10vh;
+    /* 34px */
     text-align: left;
     font-size: 0.9rem;
     font-family: 'Harmattan', sans-serif;
@@ -163,12 +157,27 @@
 
 }
 
-.Formulario-Form{
+.Formulario-Form-Mensaje {
+    height: 10vh;
+    /* 34px */
+    text-align: left;
+    font-size: 0.9rem;
+    font-family: 'Harmattan', sans-serif;
+    background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    background-position: left;
+    animation: shine 3s infinite;
+
+}
+
+.Formulario-Form {
     height: 100%;
     width: 100%;
 }
 
-.Formulario form{
+.Formulario form {
     height: 100%;
     width: 100%;
 }
@@ -181,12 +190,12 @@
     padding: 0 8px;
     border-radius: 1px;
     border: 1px solid rgb(0, 0, 0);
-    background:rgba(255, 255, 255, 0.774);
+    background: rgba(255, 255, 255, 0.774);
     font-family: Karla, sans-serif;
     font-weight: 400;
     font-size: 0.4rem;
 }
-  
+
 .Formulario input[type="text"]:focus,
 .Formulario input[type="email"]:focus,
 .Formulario textarea:focus {
@@ -199,7 +208,7 @@
     font-family: Karla, sans-serif;
     font-size: 0.4rem;
 }
-  
+
 /* @keyframes for the gradient animation */
 @keyframes bg-hue {
     100% {
@@ -207,7 +216,7 @@
     }
 }
 
-.Formulario-Form-Mensaje{
+.Formulario-Form-Mensaje {
     height: 20vh;
 }
 
@@ -216,21 +225,21 @@
     resize: none;
 }
 
-.Formulario-Form p{
+.Formulario-Form p {
     font-size: 13px;
     color: rgb(118, 118, 118);
     height: 4vh;
     font-style: italic;
 }
 
-.Formulario-Form a{
+.Formulario-Form a {
     font-size: 13px;
     text-decoration: none;
     color: inherit;
     color: black;
 }
 
-.boton-enviar{
+.boton-enviar {
     margin-top: 100px;
     position: absolute;
     font-family: 'Harmattan', sans-serif;
@@ -238,7 +247,8 @@
     height: 60px;
     width: 70px;
 }
-.enviar-button{
+
+.enviar-button {
     width: 1100px;
 
 }
