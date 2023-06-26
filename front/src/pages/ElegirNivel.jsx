@@ -32,7 +32,8 @@ export default function Home() {
             {showCounter ? <h1>{counter}</h1> :
                 <div className="Nivel">
                     <div className="cont-1"></div>
-                    <h1>Comenzara en 5 segundos al elegir el nivel</h1>
+                    <h1>Demuestra tus habilidades</h1>
+                    <h1>deletreando con señas</h1>
                     <div className="cont-2"></div>
                     <div className="button-container">
                         {niveles.map((nivel, index) => {

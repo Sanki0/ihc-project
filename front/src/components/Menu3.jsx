@@ -6,7 +6,7 @@ export default function Menu(){
         <div className="Menu3-navbar">
             <div className="Menu3-navbar-left" >
                 <Link to="/">
-                    <img src={"abc-svgrepo-com.svg"} alt="Logo" className="logo-img" />
+                    <img src={"src/assets/logo.jpg"} alt="Logo" className="logo-img" />
                 </Link>
             </div>
             <div className="Menu3-navbar-right">
