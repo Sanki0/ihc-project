@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Menu from '../components/Menu'
+import Menu3 from '../components/Menu3'
 import '../styles/Formulario.css'
 import React, { useState } from 'react';
 import { BsTelephonePlus } from 'react-icons/bs';
@@ -87,51 +87,21 @@ export default function Formulario() {
   };
 
   return (
-    <div>
-
-      <div className="microphone-wrapper">
-        <div
-          className="microphone-icon-container"
-          ref={microphoneRef}
-          onClick={handleListing}
-        >
-          <img src={microPhoneIcon} className="microphone-icon" />
-        </div>
-        <div className="microphone-status">
-          {isListening ? "Escuchando........." : "Click para empezar a escuchar"}
-        </div>
-        {isListening && (
-          <button className="microphone-stop btn" onClick={stopHandle}>
-            Stop
-          </button>
-        )}
+    <div className="Formulario">
+      <div className="Formulario-Menu">
+        <Menu3 />
       </div>
-      {transcript && (
-        <div className="microphone-result-container">
-          <div className="microphone-result-text">{transcript}</div>
-          <button className="microphone-reset btn" onClick={handleReset}>
-            Reset
-          </button>
-        </div>
-      )}
-
-      <div className="Formulario">
-        <div className="Formulario-Menu">
-          <Menu />
-        </div>
-        <div className="Formulario-cont1"></div>
-        <div className="Formulario-Titulo">
-          Compartenos&nbsp;&nbsp;tus&nbsp;&nbsp;ideas&nbsp;&nbsp;y&nbsp;&nbsp;opiniones
-        </div>
-        <div className="Formulario-Todo">
-          <div className="Formulario-izquierda"> {/* Mensaje y datos de contactos */}
-            <p className="Formulario-cont2">
-              You’ve got some Q’s and we’ve got tons and tons of A’s. Ask us about an order, a product, what you should name your puppy…anything we can help with! Don’t be shy - we promise we’re really nice 👉
+      <div className="Formulario-Todo">
+        <div className="Formulario-izquierda"> {/* Mensaje y datos de contactos */}
+          <div className="formulario-espacio"></div>
+          <h3 className="Formulario-Titulo">Compartenos&nbsp;&nbsp;tus&nbsp;&nbsp;ideas&nbsp;&nbsp;y&nbsp;&nbsp;opiniones</h3>
+          <div className="Formulario-cont2">
+            <p> You’ve got some Q’s and we’ve got tons and tons of A’s. Ask us about an order, a product, what you should name your puppy…anything we can help with! Don’t be shy - we promise we’re really nice 👉
             </p>
-            <p style={{ fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh" }}>
+            <div className="formulario-espacio"></div>
+            <p style={{ fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "8vh" }}>
               Información de contacto {/* Contáctanos  */}
             </p>
-            <div className="Titulo-Linea"></div>
             <p className="Formulario-info">
               <BsTelephonePlus style={{ color: "#404040", height: "30px" }} />
               (+51) 936 824 941
@@ -147,30 +117,66 @@ export default function Formulario() {
               Jirón Enrique Barrón 1381
             </p>
           </div>
-          <div className="Formulario-derecha"> {/* Formulario */}
-            {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
+        </div>
+        <div className="Formulario-derecha"> {/* Formulario */}
+          {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
                         Mandanos una sugerencia 
                     </p>
-                    <div className="Titulo-Linea"></div> */}
-            <div className="Formulario-Form">
-              <form onSubmit={handleSubmit}>
-                <div className="Formulario-Form-Nombre">
-                  <label htmlFor="name">Name:</label>
-                  <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" />
-                </div>
-                <div className="Formulario-Form-Correo">
-                  <label htmlFor="email">Email:</label>
-                  <input type="email" id="email" value={email} onChange={handleEmailChange} autoComplete="off" />
-                </div>
-                <div className="Formulario-Form-Mensaje">
-                  <label htmlFor="message">Message:</label>
-                  <textarea id="message" rows="4" value={message} onChange={handleMessageChange} autoComplete="off"></textarea>
-                </div>
-                <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+                    <div className="Titulo-Linea"></div> */
+          }
+          <div className="Formulario-Form">
+            <form onSubmit={handleSubmit}>
+              <div className="Formulario-Form-Nombre">
+                <label htmlFor="name">Nombre:</label>
+                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" />
+              </div>
+              <div className="formulario-espacio"></div>
+              <div className="Formulario-Form-Correo">
+                <label htmlFor="email">Correo:</label>
+                <input type="email" id="email" value={email} onChange={handleEmailChange} autoComplete="off" />
+              </div>
+              <div className="formulario-espacio"></div>
+              <div className="Formulario-Form-Mensaje">
+                <label htmlFor="message">Mensaje:</label>
+                <textarea id="message" rows="4" value={message} onChange={handleMessageChange} autoComplete="off"></textarea>
+              </div>
+              {/*<div className="formulario-espacio"></div>
+              <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+               */}
+              <div className="enviar-button ">
                 <button className="boton-enviar" type="submit">Enviar</button>
-              </form>
+              </div>
+              
+            </form>
+
+            <div className="microphone-wrapper"> 
+              <div className="microphone-icon-container"  ref={microphoneRef} onClick={handleListing}>
+                <img src={microPhoneIcon} className="microphone-icon" />
+              </div>
+              <div className="microphone-status">
+                {isListening ? "Escuchando..." : "Hablar" }
+              </div>
+              <div className="button ">
+                <div className="form-button ">
+                  {isListening && (
+                    <button className="button-form microphone-stop btn" onClick={stopHandle}>
+                      Stop
+                    </button>
+                  )}
+                </div>
+              </div>
+              
             </div>
-          </div>
+            {transcript && (
+                <div className="microphone-result-container">
+                  <div className="microphone-result-text">{transcript}</div>
+                  <button className="microphone-reset btn" onClick={handleReset}>
+                    Reset
+                  </button>
+                </div>
+            )}
+            
+          </div> 
         </div>
 
         {/*                 <div className="Formulario-Form-Nombre">
@@ -186,6 +192,9 @@ export default function Formulario() {
                     c
                 </div> */}
 
+
+      
+        
 
       </div>
     </div>

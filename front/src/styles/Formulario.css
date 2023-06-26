@@ -1,6 +1,54 @@
+.microphone-icon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -140px; /* Ajusta la posición vertical de la imagen */
+  }
+.microphone-status{
+    width: 700px;
+    height: 100px;
+    position: relative;
+    font-family: 'Harmattan', sans-serif;
+    top: -790px;
+}
+.button{
+    margin-top: -750px;
+  }
+.form-button{
+    height: 4vh;
+}
+
+.button-form {
+  height: 100%;
+  width: 20%;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 40px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.formulario-espacio{
+    height: 4vh;
+}
+
 .Formulario{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     /* display: flex; */
@@ -9,26 +57,21 @@
 }
 
 .Formulario-Menu{
-    height: 20vh;
-    width: 100%;
-}
-
-.Formulario-cont1{
-    height: 4vh;
+    height: 18vh;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Formulario-Titulo{
-    height: 13vh;       /* 20+4+13=37 */
+    height: 10vh;
+    font-size: 1 rem;
+    /* font-family: 'Pacifico', cursive; */
     font-family: 'Sniglet', cursive;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #F9f1cc;
-    text-shadow: 5px 5px 0px #FFB650, 
-      10px 10px 0px #FFD662, 
-      15px 15px 0px  #FF80BF, 
-      20px 20px 0px #EF5097, 
-      25px 25px 0px #6868AC, 
-      30px 30px 0px #90B1E0;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #5C5147;
+    text-shadow: 5px 5px 0px #ffffff;
 }
 
 .Titulo-Linea{
@@ -41,8 +84,8 @@
 }
 
 .Formulario-Todo{
-    height: 60vh;
-    width: 95%;
+    height: 80vh;
+    width: 95vw;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -52,17 +95,19 @@
 }
 
 .Formulario-izquierda{
-    height: 100%;
+    height: 80vh;
     width: 50%;
+    font-size: 0.8rem;
+    text-align: center;
     overflow: hidden;
 }
 
 .Formulario-derecha{
-    height: 100%;
     width: 50%;
+    overflow: hidden;
 }
 
-.Formulario-cont2{
+.Formulario-cont2 p{
     height: 12vh;
     font-size: 0.55rem;
     font-family: 'Harmattan', sans-serif;
@@ -78,25 +123,54 @@
 }
 
 .Formulario-Form-Nombre{
-    height: 7vh;
+    height: 10vh;/* 34px */
+    text-align: left;
+    font-size: 0.9rem;
+    font-family: 'Harmattan', sans-serif;
+    background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    background-position: left;
+    animation: shine 3s infinite;
 }
 
 .Formulario-Form-Correo{
-    height: 7vh;
+    height: 10vh;/* 34px */
+    text-align: left;
+    font-size: 0.9rem;
+    font-family: 'Harmattan', sans-serif;
+    background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    background-position: left;
+    animation: shine 3s infinite;
 
 }
 
 .Formulario-Form-Mensaje{
-    height: 7vh;
+    height: 10vh;/* 34px */
+    text-align: left;
+    font-size: 0.9rem;
+    font-family: 'Harmattan', sans-serif;
+    background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    background-position: left;
+    animation: shine 3s infinite;
 
 }
 
 .Formulario-Form{
     height: 100%;
+    width: 100%;
 }
 
 .Formulario form{
     height: 100%;
+    width: 100%;
 }
 
 .Formulario input[type="text"],
@@ -157,13 +231,18 @@
 }
 
 .boton-enviar{
-    /* margin-top: 1200px; */
+    margin-top: 100px;
     position: absolute;
     font-family: 'Harmattan', sans-serif;
     font-size: 20px;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 70px;
 }
+.enviar-button{
+    width: 1100px;
+
+}
+
 
 /* .Formulario-Form-Nombre,
 .Formulario-Form-Correo,
