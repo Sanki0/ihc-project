@@ -40,9 +40,9 @@ export default function Home() {
             </div>
             {showCounter ? <h1 className="counter-center">{counter}</h1> :
                 <div className="Nivel">
-                    <div className="elegir-nivel-nombre">Hola {name}</div>
+                    {/* <div className="elegir-nivel-nombre">Hola {name}</div> */}
                     <div className="cont-1">
-                        <h1>Demuestra&nbsp;&nbsp;tus&nbsp;&nbsp;habilidades&nbsp;&nbsp;
+                        <h1>{name}&nbsp;&nbsp;demuestra&nbsp;&nbsp;tus&nbsp;&nbsp;habilidades&nbsp;&nbsp;
                             deletreando&nbsp;&nbsp;con&nbsp;&nbsp;señas</h1>
                     </div>
                     <div className="cont-2"></div>
