@@ -2,27 +2,24 @@
     width: 100px;
     height: 100px;
     position: relative;
-    top: -140px;
-    /* Ajusta la posición vertical de la imagen */
+    top: -23%;
+    margin-left: -10%;
 }
 
 .microphone-status {
+    margin-top: 1%;
+    margin-left: -3%;
     width: 700px;
     height: 100px;
     position: relative;
     font-family: 'Harmattan', sans-serif;
-    top: -790px;
 }
 
-.button {
-    margin-top: -750px;
-}
-
-.form-button {
-    height: 4vh;
-}
 
 .button-form {
+    margin-left: -10%;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 20%;
     background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
@@ -78,14 +75,6 @@
     text-shadow: 5px 5px 0px #ffffff;
 }
 
-.Titulo-Linea {
-    text-align: center;
-    height: 5vh;
-    width: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    border-top: 3px rgba(45, 45, 45, 0.822) solid;
-}
 
 .Formulario-Todo {
     height: 80vh;
@@ -128,6 +117,16 @@
 
 }
 
+.button {
+    margin-top: -757px;
+}
+
+
+.form-button {
+    height: 4vh;
+  }
+  
+
 .Formulario-Form-Nombre {
     height: 10vh;
     /* 34px */
@@ -136,7 +135,7 @@
     font-family: 'Harmattan', sans-serif;
     background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     background-size: 200%;
     background-position: left;
     animation: shine 3s infinite;
@@ -151,7 +150,7 @@
     font-family: 'Harmattan', sans-serif;
     background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     background-size: 200%;
     background-position: left;
     animation: shine 3s infinite;
@@ -165,21 +164,16 @@
     font-family: 'Harmattan', sans-serif;
     background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     background-size: 200%;
     background-position: left;
     animation: shine 3s infinite;
-
 }
 
-.Formulario-Form {
-    height: 100%;
-    width: 100%;
-}
-
-.Formulario form {
-    height: 100%;
-    width: 100%;
+.Formulario-Form-Nombre input,
+.Formulario-Form-Correo input,
+.Formulario-Form-Mensaje textarea {
+  color: #1E1E1E ;
 }
 
 .Formulario input[type="text"],
@@ -201,7 +195,7 @@
 .Formulario textarea:focus {
     outline: none;
     border: 3px solid transparent;
-    background-image: linear-gradient(white, white), linear-gradient(315deg, rgb(236, 160, 255), rgb(170, 178, 255), rgb(132, 255, 201));
+    background-image: linear-gradient(white, white), linear-gradient(315deg, rgb(236, 160, 255), rgb(170, 178, 255));
     background-origin: border-box;
     background-clip: padding-box, border-box;
     animation: bg-hue 2s linear infinite;
@@ -246,11 +240,12 @@
     font-size: 20px;
     height: 60px;
     width: 70px;
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    color: #FFFFFF;
 }
 
 .enviar-button {
     width: 1100px;
-
 }
 
 
