@@ -239,13 +239,26 @@
     font-family: 'Harmattan', sans-serif;
     font-size: 20px;
     height: 60px;
-    width: 70px;
+    width: 220px;
     background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    border: 0;
+    border-radius: 40px;
     color: #FFFFFF;
 }
 
+.boton-enviar:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 0.1rem rgba(239, 71, 101, 0.5), .125rem .125rem 0.1rem rgba(255, 154, 90, 0.5);
+}
+
+.boton-enviar:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 0.1rem rgba(239, 71, 101, 0.5), .125rem .125rem 0.1rem rgba(255, 154, 90, 0.5);
+    cursor: pointer;
+}
+
 .enviar-button {
-    width: 1100px;
+    width: 115vh;
 }
 
 

@@ -119,11 +119,6 @@ export default function Formulario() {
           </div>
         </div>
         <div className="Formulario-derecha"> {/* Formulario */}
-          {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
-                        Mandanos una sugerencia 
-                    </p>
-                    <div className="Titulo-Linea"></div> */
-          }
           <div className="Formulario-Form">
             <form onSubmit={handleSubmit}>
               <div className="Formulario-Form-Nombre">
@@ -146,7 +141,6 @@ export default function Formulario() {
               <div className="enviar-button ">
                 <button className="boton-enviar" type="submit">Enviar</button>
               </div>
-              
             </form>
 
             <div className="microphone-wrapper"> 
@@ -170,34 +164,14 @@ export default function Formulario() {
             {transcript && (
                 <div className="microphone-result-container">
                   <div className="microphone-result-text">{transcript}</div>
-                  <button className="microphone-reset btn" onClick={handleReset}>
-                    Reset
-                  </button>
+                    <button className="microphone-reset btn" onClick={handleReset}>
+                      Reset
+                    </button>
                 </div>
             )}
-            
           </div> 
         </div>
-
-        {/*                 <div className="Formulario-Form-Nombre">
-                    <input type="text" label="name" placeholder="Focus the input and see the colors" />
-                </div>
-                <div className="Formulario-Form-Correo">
-                    <input type="text" label="name" placeholder="Focus the input and see the colors" />
-                </div>
-                <div className="Formulario-Form-Mensaje">
-                    <input type="text" label="name" placeholder="Focus the input and see the colors" /> 
-                </div>
-                <div className="Formularion-Datos">
-                    c
-                </div> */}
-
-
-      
-        
-
       </div>
     </div>
-
   );
 }
