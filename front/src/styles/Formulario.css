@@ -140,6 +140,7 @@
     background-size: 200%;
     background-position: left;
     animation: shine 3s infinite;
+    /* text-align: center; */
 }
 
 .Formulario-Form-Correo {
@@ -154,7 +155,6 @@
     background-size: 200%;
     background-position: left;
     animation: shine 3s infinite;
-
 }
 
 .Formulario-Form-Mensaje {
