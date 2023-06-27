@@ -20,21 +20,40 @@
 }
 
 .Acerca-h1.Acerca-h1-1{
-    height: 10vh;
+    padding-top: 3vh;
+    height: 13vh;
+    color: #5C5147;
+    text-shadow: 5px 5px 0px #ffffff;
+    font-family: 'Sniglet', cursive;
+    font-size: 1.5rem;
 }
 
 .Acerca-paragraph.Acerca-paragraph-1 {
-    height: 20vh;
+    height: 15vh;
+    font-size: 1.1rem;
+    font-family: 'Harmattan', sans-serif;
 }
 
 .Acerca-paragraph.Acerca-paragraph-2 {
-    height: 30vh;
+    height: 25vh;
+    font-size: 1.1rem;
+    font-family: 'Harmattan', sans-serif;
 }
 
 .Acerca-paragraph.Acerca-paragraph-3 {
     height: 10vh;
+    font-size: 1.1rem;
+    font-family: 'Harmattan', sans-serif;
 }
 
 .Acerca-paragraph.Acerca-paragraph-4 {
     height: 10vh;
+    font-size: 1.1rem;
+    font-family: 'Harmattan', sans-serif;
+}
+
+.Acerca-paragraph a {
+    color: inherit; /* Hereda el color del texto de su elemento padre */
+    font-size: 1.1rem;
+    font-family: 'Harmattan', sans-serif;
 }
