@@ -7,7 +7,9 @@ import Formulario from './pages/Formulario.jsx'
 import Conocenos from './pages/Conocenos.jsx'
 import Nombre from './pages/Nombre.jsx'
 import ElegirNivel from './pages/ElegirNivel.jsx'
-import ComenzarNivel from './pages/ComenzarNivel.jsx'
+import ComenzarNivel1 from './pages/ComenzarNivel1.jsx'
+import ComenzarNivel2 from './pages/ComenzarNivel2.jsx'
+import ComenzarNivel3 from './pages/ComenzarNivel3.jsx'
 import Juego from './pages/Juego.jsx'
 import Acerca from './pages/Acerca.jsx'
 
@@ -40,8 +42,16 @@ const router = createBrowserRouter([
     element: <ElegirNivel />,
   },
   {
-    path: '/comenzar-nivel',
-    element: <ComenzarNivel />,
+    path: '/comenzar-nivel1',
+    element: <ComenzarNivel1 />,
+  },
+  {
+    path: '/comenzar-nivel2',
+    element: <ComenzarNivel2 />,
+  },
+  {
+    path: '/comenzar-nivel3',
+    element: <ComenzarNivel3 />,
   },
   {
     path: '/juego',
