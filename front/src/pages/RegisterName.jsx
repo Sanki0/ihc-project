@@ -73,21 +73,22 @@ export default function RegisterName() {
                         Mandanos una sugerencia 
                     </p>
                     <div className="Titulo-Linea"></div> */}
-          <div className="Formulario-Form">
+          <div className="Formu">
             <form onSubmit={handleSubmit}>
-              <div className="Formulario-Form-Nombre-RegisterName">
-                <label htmlFor="name">Nombre:</label>
-                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" />
+              <div className="RegisterName">
+                <label htmlFor="name">¿Cuál es tu nombre?</label>
+                <h2 className= "palabra">¡Escríbelo o dilo!</h2>
+                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off"  className="caja-texto" />
               </div>
 
-              <button className="boton-enviar" type="submit">Enviar</button>
+              <button className="btnviar" type="submit">Enviar</button>
             </form>
           </div>
         </div>
 
 
         <div className='center-elements' ref={microphoneRef} onClick={handleListing}>
-          <img src={microPhoneIcon} className="microphone-icon-RegisterName" />
+          <img src={microPhoneIcon} className="microRegisterName" />
         </div>
         <div className="center-elements">
           {isListening ? <p className='explain-text'> Escuchando... </p> : <p className='explain-text'>Puede llenar su nombre de manera manual o dando click al microfono (Comience con Nombre para que pueda ser completado correctamente) </p>}

@@ -2,11 +2,11 @@
   height: 100vh;
 }
 
-.microphone-icon-RegisterName {
-  width: 50px;
-  height: 100px;
-  top: -140px;
-  /* Ajusta la posición vertical de la imagen */
+.microRegisterName {
+  width: 180px;
+  height: 360px;
+  margin-top: -2%;
+
 }
 
 .microphone-status {
@@ -25,18 +25,40 @@
   margin-right: auto;
 }
 
-.Formulario-Form-Nombre-RegisterName {
+.RegisterName {
+  margin-top: 2%; 
   height: 10vh;
-  /* 34px */
-  text-align: left;
+  width: 95vw;
+  font-size: 1.8rem;
+  font-family: 'Sniglet', cursive;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+}
+
+.Formu label {
+  height: 15%;
+  font-size: 1.5rem;
+  color: #5C5147;
+  text-shadow: 5px 5px 0px #ffffff;
+}
+
+.palabra {
+  color: #150b01;
   font-size: 0.9rem;
-  font-family: 'Harmattan', sans-serif;
-  background: linear-gradient(90deg, #EF5097, #D7367A, #B7205F, #930048, #B7205F, #D7367A, #EF5097);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200%;
-  background-position: left;
-  animation: shine 3s infinite;
+  margin-top: 40px; 
+}
+
+.caja-texto {
+  width: 20%; 
+  height: 75%;
+  padding: 0 8px;
+  border-radius: 1px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.774);
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+  font-size: 0.4rem;
 }
 
 .Formulario-derecha-RegisterName {
@@ -60,4 +82,17 @@
   font-size: small;
   /* i want the text to be centered */
   text-align: center;
+  margin-top: -120px;
+}
+
+.btnviar {
+  margin-top: 20%;
+  margin-left: 60%;
+  position: absolute;
+  font-family: 'Harmattan', sans-serif;
+  font-size: 20px;
+  height: 60px;
+  width: 70px;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  color: #FFFFFF;
 }
