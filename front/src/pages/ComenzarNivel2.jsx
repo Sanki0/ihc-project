@@ -42,8 +42,7 @@ export default function Home() {
                 <div className="Nivel">
                     {/* <div className="elegir-nivel-nombre">Hola {name}</div> */}
                     <div className="cont-1">
-                        <h1>{name}&nbsp;&nbsp;demuestra&nbsp;&nbsp;tus&nbsp;&nbsp;habilidades&nbsp;&nbsp;
-                            deletreando&nbsp;&nbsp;con&nbsp;&nbsp;señas</h1>
+                        <h1>{name}&nbsp;&nbsp;Nivel&nbsp;&nbsp;2</h1>
                     </div>
                     <div className="cont-2"></div>
                     <div className="button-container">
