@@ -5,15 +5,8 @@
   overflow-y: hidden;
 }
 
-.Home-Menu{
-  height: 20vh;
-  width: 100%;
-  color: #074F57;
-  z-index: 1;
-}
-
 .Home{
-  height: 80vh;
+  height: 3vh;
   max-height: 80vh;
   width: 85vw;
   /* overflow: hidden; */
@@ -33,11 +26,11 @@
 }
 
 .home-cont-1-nivel{
-  margin-top: -610px;
+  margin-top: -48%;
 }
 
 .home-cont-2-nivel{
-  margin-top: -1120px;
+  margin-top: 3%;
 }
 
 .home-cont-3-nivel{
@@ -45,11 +38,11 @@
 }
 
 .frase{
-  margin-top: -80px;
+  margin-top: -6%;
 }
 
 .boton{
-  margin-top: -300px;
+  margin-top: 21%;
 }
 
 

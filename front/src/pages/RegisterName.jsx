@@ -63,12 +63,9 @@ export default function RegisterName() {
 
   return (
     <div className="All-Register-jsx">
-
       <div className="Formulario-Menu">
         <Menu />
       </div>
-
-
       <div className="Formulario-Todo-RegisterName">
 
         <div className="Formulario-derecha-RegisterName"> {/* Formulario */}

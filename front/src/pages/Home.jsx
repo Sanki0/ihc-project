@@ -1,7 +1,6 @@
 import { Link, Outlet } from "react-router-dom"
 import Menu from '../components/Menu'
 import '../styles/Home.css'
-import RegisterName from "./RegisterName";
 
 export default function Home() {
   return (
