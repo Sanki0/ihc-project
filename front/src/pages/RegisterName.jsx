@@ -63,12 +63,12 @@ export default function RegisterName() {
 
   return (
     <div className="All-Register-jsx">
-      <div className="Formulario-Menu">
+      <div className="Register-Menu">
         <Menu />
       </div>
-      <div className="Formulario-Todo-RegisterName">
+      <div className="Register-Todo-RegisterName">
 
-        <div className="Formulario-derecha-RegisterName"> {/* Formulario */}
+        <div className="Register-derecha-RegisterName"> {/* Formulario */}
           {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
                         Mandanos una sugerencia 
                     </p>
