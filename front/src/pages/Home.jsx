@@ -19,10 +19,12 @@ export default function Home() {
         </div>
         <div className="boton">
           <div className="home-boton ">
-            <button className="button-home home-slide-down home-delay-1" role="button">   {/* 49% */}
-              <Link className="home-link" to="registro">Comenzar</Link>
-              <Outlet />
-            </button>
+            <Link className="home-link" to="registro">
+              <button className="button-home home-slide-down home-delay-1" role="button">   {/* 49% */}
+                <div className="home-link" to="registro">Comenzar</div>        
+              </button>
+            </Link> 
+            <Outlet />
           </div>
         </div>
 
