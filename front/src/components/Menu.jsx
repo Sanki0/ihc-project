@@ -14,7 +14,7 @@ export default function Menu(){
                     <Link className="nav-link" to={"/conocenos"}>Conócenos</Link>
                 </div>
                 <div className="nav-link-wrapper">
-                    <Link className="nav-link" to={"/acerca"}>Acerca</Link>
+                    <Link className="nav-link" to={"/acerca"}>Misión</Link>
                 </div>
                 <div className="nav-link-wrapper">
                     <Link className="nav-link" to={"/formulario"}>Sugerencias</Link>
