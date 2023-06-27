@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import './styles/Menu.css'
+import './styles/Menu3.css'
 
 export default function Menu(){
     return (
@@ -12,9 +12,6 @@ export default function Menu(){
             <div className="Menu3-navbar-right">
                 <div className="nav3-link-wrapper">
                     <Link className="nav-link" to={"/conocenos"}>Conócenos</Link>
-                </div>
-                <div className="nav3-link-wrapper">
-                    <Link className="nav-link" to={"/acerca"}>Acerca</Link>
                 </div>
             </div>
         </div>

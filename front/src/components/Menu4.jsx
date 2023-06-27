@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import './styles/Menu.css'
+import './styles/Menu4.css'
 
 export default function Menu(){
     return (
@@ -8,11 +8,6 @@ export default function Menu(){
                 <Link to="/"> 
                     <img src={"src/assets/logo.jpg"} alt="Logo" className="logo-img" />
                 </Link>
-                <div className="abajo" >
-                    <Link to={"/acerca"}> 
-                        <img src={"src/assets/pregunta.jpg"} alt="Logo" className="pregunta-img" />
-                    </Link>
-                </div>
             </div>
             
             <div className="Menu-navbar-right">

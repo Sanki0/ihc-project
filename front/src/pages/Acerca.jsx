@@ -1,12 +1,12 @@
 import { Link, Outlet } from "react-router-dom"
-import Menu from '../components/Menu'
+import Menu4 from '../components/Menu4'
 import '../styles/Acerca.css'
 
 export default function Home() {
   return (
     <div className="All-Acerca-jsx">
       <div className="Acerca-Menu">
-        <Menu />
+        <Menu4 />
       </div>
       <div className="Acerca">
         <h1 className="Acerca-h1 Acerca-h1-1">Acerca de</h1>

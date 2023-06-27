@@ -1,15 +1,15 @@
 .Conocenos{
-    height: 100vh;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-y: hidden;
 }
 
 .conocenos-Menu{
-    height: 18vh;
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
+  height: 20vh;
+  width: 100%;
+  color: #6868AC;
+  z-index: 1;
 }
 
 .conocenos-container{
@@ -196,8 +196,16 @@
 
 .espacio-blanco{
   height: 3vh;
-  /* border: 1px solid black; */
+  /* bo
+  rder: 1px solid black; */
 }
+
+.Acerca a {
+  color: inherit; /* Hereda el color del texto de su elemento padre */
+  font-size: 0.8rem;
+  font-family: 'Harmattan', sans-serif;
+}
+
 
 /* .datos-nombre {
     height: 5vh;

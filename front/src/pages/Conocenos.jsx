@@ -15,10 +15,12 @@ export default function Conocenos() {
                     <div className="conocenos-descripcion-espacio"></div>
                     <h3>Nuestro&nbsp;&nbsp;equipo</h3>
                     <div className="conocenos-descripcion-espacio"></div>
-                    <p>Somos un equipo de profesionales apasionados por la tecnología y comprometidos con la excelencia en el desarrollo de software. Nos especializamos en diferentes áreas para ofrecer soluciones innovadoras y de calidad a nuestros clientes.<br ></br>
-                    <span className="espacio-blanco"> </span>Nuestro equipo se caracteriza por su colaboración estrecha, su creatividad y su enfoque en la excelencia técnica. Trabajamos de la mano con nuestros clientes para comprender sus necesidades y ofrecer soluciones personalizadas que impulsen su éxito. 
-                    Estamos comprometidos con la calidad, la innovación y el cumplimiento de los plazos de entrega.
+                    <p className=" Acerca a ">Hecho con amor por alumnos de la Universidad Nacional de Ingeniería  apasionados por la tecnología y comprometidos con la excelencia en el desarrollo de software<br ></br> <span className="espacio-blanco"> </span>Creamos esta herramienta para facilitar que los niños, jóvenes y adultos sordos o mudos aprendan el ABC de la lengua de señas peruana a través del deletreo manual.<br ></br> 
+                    <span className="espacio-blanco"> </span> Estamos comprometidos con la calidad, innovación y el cumplimiento de los plazos de entrega<br ></br> 
+                    <span className="espacio-blanco"> </span>Aprenda más sobre la <a href="https://repositorio.minedu.gob.pe/handle/20.500.12799/5545">lengua de señas</a> o has una <a href="https://www.ensenasperu.org/involucrate.php">donación</a>
+                        <br ></br> Seguimiento de manos por <a href="https://www.w3schools.com">TensorFlow.js</a>
                     </p>
+                    
                 </div>
                 <div className="conocenos-miembros">
                     <div className="miembro">

@@ -1,22 +1,27 @@
 .All-Acerca-jsx{
-    height: 20vh;
+    height: 100vh;
     width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    position: relative;
+    overflow-y: hidden;
 }
 
 .Acerca-Menu{
+    height: 20vh;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    color: #074F57;
+    z-index: 1;
   }
 
 .Acerca{
     height: 80vh;
-    width: 70%;
-    margin-right: auto;
+    max-height: 80vh;
+    width: 85vw;
+    /* overflow: hidden; */
     margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #074F57;
+    z-index: 2;
 }
 
 .Acerca-h1.Acerca-h1-1{
