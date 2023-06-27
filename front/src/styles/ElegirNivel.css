@@ -18,7 +18,7 @@
 }
 
 .cont-1 {
-  height: 10vh;
+  height: 5vh;
   width: 85vw;
   font-size: 1rem;
   /* font-family: 'Pacifico', cursive; */
@@ -35,7 +35,8 @@
 
 .Nivel h1 {
   height: 15%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 2%;
 }
 
 .link {
