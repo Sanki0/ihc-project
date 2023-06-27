@@ -11,7 +11,7 @@ export default function Menu(){
             </div>
             <div className="Menu2-navbar-right">
                 <div className="nav2-link-wrapper">
-                    <Link className="nav-link" to={"/conocenos"}>Conócenos</Link>
+                    <Link className="nav-link" to={"/formulario"}>Sugerencias</Link>
                 </div>
                 <div className="nav2-link-wrapper">
                     <Link className="nav-link" to={"/acerca"}>Acerca</Link>
