@@ -32,7 +32,7 @@ export default function Home() {
     };
     return (
         <div>
-            <div className="Menu">
+            <div className="Niveles-Menu">
                 <Menu5 />
             </div>
             {showCounter ? ( <div className="container">
