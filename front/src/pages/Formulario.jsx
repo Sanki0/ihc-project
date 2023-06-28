@@ -148,8 +148,8 @@ export default function Formulario() {
               {/*<div className="formulario-espacio"></div>
               <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
                */}
-              <div className="enviar-button ">
-                <button className="boton-enviar" type="submit">Enviar</button>
+              <div className="formulario-enviar-button ">
+                <button className="formulario-boton-enviar" type="submit">Enviar</button>
               </div>
             </form>
 
@@ -163,7 +163,7 @@ export default function Formulario() {
               <div className="button ">
                 <div className="form-button ">
                   {isListening && (
-                    <button className="button-form microphone-stop btn" onClick={stopHandle}>
+                    <button className="formulario-button-form microphone-stop btn" onClick={stopHandle}>
                       Stop
                     </button>
                   )}
