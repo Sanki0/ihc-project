@@ -106,7 +106,7 @@ export default function Formulario() {
           <div className="formulario-espacio"></div>
           <h3 className="Formulario-Titulo">Compartenos&nbsp;&nbsp;tus&nbsp;&nbsp;ideas&nbsp;&nbsp;y&nbsp;&nbsp;opiniones</h3>
           <div className="Formulario-cont2">
-            <p> You’ve got some Q’s and we’ve got tons and tons of A’s. Ask us about an order, a product, what you should name your puppy…anything we can help with! Don’t be shy - we promise we’re really nice 👉
+            <p> Tienes algunas preguntas y nosotros tenemos toneladas y toneladas de respuestas. Pregúntanos sobre lo que necesites… ¡cualquier cosa con la que podamos ayudarte! No seas tímido, prometemos que somos muy amables 👉
             </p>
             <div className="formulario-espacio"></div>
             <p style={{ fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "8vh" }}>
