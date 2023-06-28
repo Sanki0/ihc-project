@@ -13,6 +13,11 @@ export default function RegisterName() {
       command: 'nombre *',
       callback: (name) => setName(name)
     },
+    {
+      command: 'enviar',
+      callback: (e) => handleSubmit(e)
+
+    }
   ]
 
   const { transcript, resetTranscript } = useSpeechRecognition({ commands })
@@ -73,8 +78,8 @@ export default function RegisterName() {
             <form onSubmit={handleSubmit}>
               <div className="RegisterName">
                 <label htmlFor="name">¿Cuál es tu nombre?</label>
-                <h2 className= "palabra">¡Escríbelo o dilo!</h2>
-                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off"  className="caja-texto" />
+                <h2 className="palabra">¡Escríbelo o dilo!</h2>
+                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" className="caja-texto" />
               </div>
 
               <button className="btnviar" type="submit">Enviar</button>
