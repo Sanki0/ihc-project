@@ -8,7 +8,7 @@ import { BsPinMap } from 'react-icons/bs';
 import 'regenerator-runtime/runtime'
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import microPhoneIcon from '../assets/microphone.svg';
-
+import emailjs from '@emailjs/browser';
 
 export default function Formulario() {
   const [name, setName] = useState('');
@@ -84,6 +84,16 @@ export default function Formulario() {
     console.log('Nombre:', name);
     console.log('Email:', email);
     console.log('Mensaje:', message);
+    emailjs.sendForm('service_49honxm', 'template_tm5fojc', event.target, 'R_HvznbR2V6nyHzkT')
+      .then((result) => {
+        console.log(result.text);
+      }
+        , (error) => {
+          console.log(error.text);
+        }
+      );
+    // change the page after submit
+    window.location.href = "/";
   };
 
   return (
@@ -123,17 +133,17 @@ export default function Formulario() {
             <form onSubmit={handleSubmit}>
               <div className="Formulario-Form-Nombre">
                 <label htmlFor="name">Nombre:</label>
-                <input type="text" id="name" value={name} onChange={handleNameChange} autoComplete="off" />
+                <input type="text" id="name" name="name" value={name} onChange={handleNameChange} autoComplete="off" />
               </div>
               <div className="formulario-espacio"></div>
               <div className="Formulario-Form-Correo">
                 <label htmlFor="email">Correo:</label>
-                <input type="email" id="email" value={email} onChange={handleEmailChange} autoComplete="off" />
+                <input type="email" id="email" name="email" value={email} onChange={handleEmailChange} autoComplete="off" />
               </div>
               <div className="formulario-espacio"></div>
               <div className="Formulario-Form-Mensaje">
                 <label htmlFor="message">Mensaje:</label>
-                <textarea id="message" rows="4" value={message} onChange={handleMessageChange} autoComplete="off"></textarea>
+                <textarea id="message" rows="4" value={message} name="message" onChange={handleMessageChange} autoComplete="off"></textarea>
               </div>
               {/*<div className="formulario-espacio"></div>
               <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
@@ -143,12 +153,12 @@ export default function Formulario() {
               </div>
             </form>
 
-            <div className="microphone-wrapper"> 
-              <div className="microphone-icon-container"  ref={microphoneRef} onClick={handleListing}>
+            <div className="microphone-wrapper">
+              <div className="microphone-icon-container" ref={microphoneRef} onClick={handleListing}>
                 <img src={microPhoneIcon} className="microphone-icon" />
               </div>
               <div className="microphone-status">
-                {isListening ? "Escuchando..." : "Hablar" }
+                {isListening ? "Escuchando..." : "Hablar"}
               </div>
               <div className="button ">
                 <div className="form-button ">
@@ -159,17 +169,17 @@ export default function Formulario() {
                   )}
                 </div>
               </div>
-              
+
             </div>
             {transcript && (
-                <div className="microphone-result-container">
-                  <div className="microphone-result-text">{transcript}</div>
-                    <button className="microphone-reset btn" onClick={handleReset}>
-                      Reset
-                    </button>
-                </div>
+              <div className="microphone-result-container">
+                <div className="microphone-result-text">{transcript}</div>
+                <button className="microphone-reset btn" onClick={handleReset}>
+                  Reset
+                </button>
+              </div>
             )}
-          </div> 
+          </div>
         </div>
       </div>
     </div>
