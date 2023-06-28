@@ -169,7 +169,6 @@ export default function Formulario() {
                   )}
                 </div>
               </div>
-
             </div>
             {transcript && (
               <div className="microphone-result-container">

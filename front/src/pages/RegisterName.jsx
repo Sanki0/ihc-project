@@ -69,10 +69,6 @@ export default function RegisterName() {
       <div className="Register-Todo-RegisterName">
 
         <div className="Register-derecha-RegisterName"> {/* Formulario */}
-          {/* <p style={{fontSize: "30px", fontFamily: "'Harmattan', sans-serif", height: "6vh"}}>
-                        Mandanos una sugerencia 
-                    </p>
-                    <div className="Titulo-Linea"></div> */}
           <div className="Formu">
             <form onSubmit={handleSubmit}>
               <div className="RegisterName">
@@ -93,28 +89,7 @@ export default function RegisterName() {
         <div className="center-elements">
           {isListening ? <p className='explain-text'> Escuchando... </p> : <p className='explain-text'>Puede llenar su nombre de manera manual o dando click al microfono (Comience con Nombre para que pueda ser completado correctamente) </p>}
         </div>
-
       </div>
-
-
-      {/* <div className="microphone-wrapper-RegisterName">
-        <div className="microphone-icon-container-RegisterName" ref={microphoneRef} onClick={handleListing}>
-          <img src={microPhoneIcon} className="microphone-icon-RegisterName" />
-        </div>
-        <div className="microphone-status-RegisterName">
-          {isListening ? "Escuchando..." : "Hablar"}
-        </div>
-      </div> */}
-
-      {/* {transcript && (
-        <div className="microphone-result-container">
-          <div className="microphone-result-text">{transcript}</div>
-          <button className="microphone-reset btn" onClick={handleReset}>
-            Reset
-          </button>
-        </div>
-      )} */}
-
     </div >
 
   );

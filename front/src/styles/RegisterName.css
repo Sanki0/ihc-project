@@ -1,15 +1,25 @@
 .All-Register-jsx {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .Register-Menu{
   height: 20vh;
+  width: 100%;
 }
 
-.microRegisterName {
+.microRegisterName { /* Icono Microfono */
+  border-radius: 50%;
   width: 180px;
-  height: 360px;
-  margin-top: 2%;
+  margin-top: 4%;
+  z-index: 2;
+}
+
+.microRegisterName:hover { /* Icono Microfono */
+    border-radius: 50%;
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 0.1rem rgba(239, 71, 101, 0.5), .125rem .125rem 0.1rem rgba(255, 154, 90, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .microphone-status {
@@ -82,10 +92,11 @@
 }
 
 .explain-text {
+  width: 60%;
   font-size: small;
   /* i want the text to be centered */
   text-align: center;
-  margin-top: -120px;
+  margin-top: 20px;
 }
 
 .btnviar {
