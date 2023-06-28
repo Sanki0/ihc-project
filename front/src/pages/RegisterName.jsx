@@ -83,12 +83,21 @@ export default function RegisterName() {
         </div>
 
 
-        <div className='center-elements' ref={microphoneRef} onClick={handleListing}>
-          <img src={microPhoneIcon} className="microRegisterName" />
+        <div className='center-elements'>
+          <img src={microPhoneIcon} ref={microphoneRef} onClick={handleListing} className="microRegisterName" />
         </div>
         <div className="center-elements">
           {isListening ? <p className='explain-text'> Escuchando... </p> : <p className='explain-text'>Puede llenar su nombre de manera manual o dando click al microfono (Comience con Nombre para que pueda ser completado correctamente) </p>}
         </div>
+        {/* <div className="re-button">
+          <div className="register-button">
+            {isListening && (
+              <button className="register-button-form microphone-stop btn" onClick={stopHandle}>
+                Stop
+              </button>
+            )}
+          </div>
+        </div> */}
       </div>
     </div >
 

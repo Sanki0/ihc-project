@@ -63,6 +63,7 @@
 }
 
 .caja-texto {
+  position: relative;
   width: 20%; 
   height: 75%;
   padding: 0 8px;
@@ -72,6 +73,7 @@
   font-family: Karla, sans-serif;
   font-weight: 400;
   font-size: 0.4rem;
+  z-index: 3;
 }
 
 .Register-derecha-RegisterName {

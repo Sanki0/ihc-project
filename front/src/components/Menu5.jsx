@@ -8,7 +8,7 @@ export default function Menu(){
                 <Link to="/"> 
                     <img src={"src/assets/logo.jpg"} alt="Logo" className="logo-img" />
                 </Link>
-                <div className="abajo" >
+                <div className="menu5-abajo" >
                     <Link to={"/acerca"}> 
                         <img src={"src/assets/pregunta.jpg"} alt="Logo" className="pregunta-img" />
                     </Link>
