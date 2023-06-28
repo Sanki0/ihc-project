@@ -29,7 +29,7 @@
 }
 
 .conocenos-descripcion-espacio{
-  height: 7vh;
+  height: 6vh;
 }
 
 .conocenos-descripcion h3{
@@ -48,7 +48,7 @@
     height: 60vh;
     width: 100%;
     font-family: 'Harmattan', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     text-align: center;
     overflow: hidden;
 }

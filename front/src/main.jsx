@@ -10,6 +10,7 @@ import ElegirNivel from './pages/ElegirNivel.jsx'
 import ComenzarNivel1 from './pages/ComenzarNivel1.jsx'
 import ComenzarNivel2 from './pages/ComenzarNivel2.jsx'
 import ComenzarNivel3 from './pages/ComenzarNivel3.jsx'
+import Resultado from './pages/Resultado.jsx'
 import Juego from './pages/Juego.jsx'
 import Acerca from './pages/Acerca.jsx'
 
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: '/comenzar-nivel3',
     element: <ComenzarNivel3 />,
+  },
+  {
+    path: '/resultado',
+    element: <Resultado />,
   },
   {
     path: '/juego',

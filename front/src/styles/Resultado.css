@@ -1,0 +1,162 @@
+.All-Resultado-jsx {
+  height: 100%;
+  width: 100%;
+}
+
+.Resultado-Menu{
+  height: 20vh;
+  width: 100%;
+}
+
+
+
+.microRegisterName:hover { /* Icono Microfono */
+    border-radius: 50%;
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 0.1rem rgba(239, 71, 101, 0.5), .125rem .125rem 0.1rem rgba(255, 154, 90, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.microphone-status {
+  width: 700px;
+  height: 100px;
+  font-family: 'Harmattan', sans-serif;
+  top: -790px;
+}
+
+
+.Resultado-Todo {
+  height: 30vh;
+  width: 95vw;
+  /* display: flex; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Resultados {
+  margin-top: 2%; 
+  height: 10vh;
+  width: 95vw;
+  font-size: 1.8rem;
+  font-family: 'Sniglet', cursive;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+}
+
+.Formu label {
+  height: 15%;
+  font-size: 1.5rem;
+  color: #5C5147;
+  text-shadow: 5px 5px 0px #ffffff;
+}
+
+.palabra {
+  color: #150b01;
+  font-size: 0.9rem;
+  margin-top: 40px; 
+}
+
+.caja-texto {
+  position: relative;
+  width: 20%; 
+  height: 75%;
+  padding: 0 8px;
+  border-radius: 1px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.774);
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+  font-size: 0.4rem;
+  z-index: 3;
+}
+
+.Resultado {
+  width: 100%;
+  height: 100%;
+}
+
+.microphone-wrapper-RegisterName {
+  height: 70vh;
+}
+
+.center-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.explain-text {
+  width: 60%;
+  font-size: small;
+  /* i want the text to be centered */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btnviar {
+  margin-top: 20%;
+  margin-left: 60%;
+  position: absolute;
+  font-family: 'Harmattan', sans-serif;
+  font-size: 20px;
+  height: 60px;
+  width: 170px;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  border: 0;
+  border-radius: 40px;
+  color: #FFFFFF;
+}
+
+.btnviar:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 0.1rem rgba(239, 71, 101, 0.5), .125rem .125rem 0.1rem rgba(255, 154, 90, 0.5);
+}
+
+.btnviar:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 0.1rem rgba(239, 71, 101, 0.5), .125rem .125rem 0.1rem rgba(255, 154, 90, 0.5);
+  cursor: pointer;
+}
+
+.re-button{
+  
+}
+
+.register-button{
+  margin-top: -18vh;
+  padding-left: 58vh;
+  height: 8.5vh;
+  width: 60vw;
+}
+
+.register-button-form{
+  position: relative;
+  margin-left: -10%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 40px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  z-index: 2;
+}
