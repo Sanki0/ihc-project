@@ -5,7 +5,7 @@
   z-index: 1;
 }
 
-.Nivel {
+.Niveles {
   height: 80vh;
   max-height: 80vh;
   width: 85vw;
@@ -17,7 +17,7 @@
   z-index: 2;
 }
 
-.cont-1 {
+.conti1 {
   height: 5vh;
   width: 85vw;
   font-size: 1rem;
@@ -29,13 +29,13 @@
   text-shadow: 5px 5px 0px #ffffff;
 }
 
-.cont-2 {
-  height: 15%;
+.conti2{
+  margin-top: -75%;
 }
 
-.Nivel h1 {
+.Niveles h1 {
   height: 15%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 2%;
 }
 
@@ -49,7 +49,7 @@
   margin: auto;
 }
 
-.button-container {
+.butcontainer {
   height: 65%;
   width: 25%;
   margin-left: auto;
@@ -58,31 +58,12 @@
   flex-direction: column;
 }
 
-.button-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  /* O ajusta el ancho según tus necesidades */
-  margin-bottom: 20px;
-  /* Espacio entre los botones */
-}
 
-.button-item:nth-child(odd) {
-  margin-right: auto;
-  /* Empuja el botón impar hacia la izquierda */
-}
-
-.button-item:nth-child(even) {
-  margin-left: auto;
-  /* Empuja el botón par hacia la derecha */
-}
 
 /* CSS */
-.button-nivel {
-  height: 65%;
-  width: 100%;
-  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+.iconcamara {
+  height: 30%;
+  width: 40%;
   border: 0;
   border-radius: 40px;
   color: #FFFFFF;
@@ -101,6 +82,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
+  margin-left: 20%;
 }
 
 .button-62:not([disabled]):focus {
@@ -124,3 +106,23 @@
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
+
+.contenido{
+  height: 9vh;
+}
+
+.contenido-espacio p{ 
+  height: 60vh;
+  width: 100%;
+  font-family: 'Harmattan', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.mensaje {
+  color: inherit; /* Hereda el color del texto de su elemento padre */
+  font-size: 0.9rem;
+  font-family: 'Harmattan', sans-serif;
+}
+
