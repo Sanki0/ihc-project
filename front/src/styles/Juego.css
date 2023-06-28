@@ -49,8 +49,40 @@
 
 .Camera {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15%; 
+  margin-right: 30%; 
 }
 
-.Word {
-  flex: 1;
+
+.Container {
+  margin-top: -10%;
+}
+
+.ImageContainer {
+  justify-self: center; /* Centra la imagen horizontalmente */
+  margin-left: 10%;  
+}
+
+
+.WordContainer {
+  text-align: center;
+  margin-top: -27%; /* Ajusta el valor según sea necesario */
+  margin-left: -22%;
+
+}
+
+.WordContainer h1 {
+  font-family: "Arial", sans-serif; /* Cambia la fuente a tu preferencia */
+  color: #031d0c; /* Cambia el color de fuente a tu preferencia */
+  font-size: 1.5rem;;
+  font-weight: bold;
+
+}
+
+.seña-img {
+  width: 400px;
+  height: 400px;
 }

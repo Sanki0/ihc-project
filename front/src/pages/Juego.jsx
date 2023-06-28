@@ -123,9 +123,15 @@ export default function Juego() {
                 <Menu5 />
             </div>
             <div className="Juego">
+                
+                <div className="Container">
 
-                <div className="Word">
-                    <h1>{word}</h1>
+                    <div className="ImageContainer">
+                        <img src={"src/assets/letra-a.jpg"} alt="Image" className="seña-img" /> 
+                    </div>
+                    <div className="WordContainer">
+                        <h1>{word}</h1>
+                    </div>
                 </div>
 
                 <div className="Camera">
@@ -165,9 +171,6 @@ export default function Juego() {
 
             </div>
 
-            <div>
-                Volver a <Link to="/elegir-nivel">niveles</Link>
-            </div>
         </div>
     );
 }
