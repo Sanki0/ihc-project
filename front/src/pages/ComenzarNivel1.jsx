@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom"
-import Menu from '../components/Menu'
+import Menu5 from '../components/Menu5'
 import '../styles/ComenzarNivel.css'
 import { useEffect, useState } from "react";
 
@@ -36,7 +36,7 @@ export default function Home() {
     return (
         <div>
             <div className="Menu">
-                <Menu />
+                <Menu5 />
             </div>
             {showCounter ? <h1 className="counter-center">{counter}</h1> :
                 <div className="Nivel">
