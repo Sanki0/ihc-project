@@ -89,7 +89,7 @@ export default function RegisterName() {
         <div className="center-elements">
           {isListening ? <p className='explain-text'> Escuchando... </p> : <p className='explain-text'>Puede llenar su nombre de manera manual o dando click al microfono (Comience con Nombre para que pueda ser completado correctamente) </p>}
         </div>
-        {/* <div className="re-button">
+        <div className="re-button">
           <div className="register-button">
             {isListening && (
               <button className="register-button-form microphone-stop btn" onClick={stopHandle}>
@@ -97,7 +97,7 @@ export default function RegisterName() {
               </button>
             )}
           </div>
-        </div> */}
+        </div>
       </div>
     </div >
 
