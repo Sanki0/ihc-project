@@ -22,7 +22,7 @@ export default function Home() {
 
     return (
         <div>
-            <div className="Menu">
+            <div className="Elegir-Menu">
                 <Menu />
             </div>
             

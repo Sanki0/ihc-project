@@ -1,4 +1,4 @@
-.Menu {
+.Elegir-Menu {
   height: 20vh;
   width: 100%;
   color: #074F57;
@@ -80,6 +80,8 @@
 
 /* CSS */
 .button-nivel {
+  position: relative;
+  z-index: 2;
   height: 65%;
   width: 100%;
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
