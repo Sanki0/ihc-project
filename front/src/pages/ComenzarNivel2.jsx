@@ -40,10 +40,10 @@ export default function Home() {
                 <div className="Niveles">
                     {/* <div className="elegir-nivel-nombre">Hola {name}</div> */}
                     <div className="conti1">
-                        <h1>{name}&nbsp;&nbsp;Nivel&nbsp;&nbsp;1</h1>
+                        <h1>{name}&nbsp;&nbsp;Nivel&nbsp;&nbsp;2</h1>
                     </div>
                     <div className="contenido"></div>
-                    <p className=" mensaje">Aquí aprenderás las siguientes<br ></br>  letras : A, B, C, D, E, F, G, H, I<br ></br> <span className="espacio-blanco"> </span>
+                    <p className=" mensaje">Aquí aprenderás las siguientes<br ></br>  letras : D, F, K, R, S, I, T<br ></br> <span className="espacio-blanco"> </span>
                     Cuando comience, observe la mano e <br ></br>  imite con su propia mano<br ></br> 
                     </p>
                     <div className="conti2"></div>

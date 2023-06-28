@@ -43,7 +43,7 @@ export default function Home() {
                         <h1>{name}&nbsp;&nbsp;Nivel&nbsp;&nbsp;1</h1>
                     </div>
                     <div className="contenido"></div>
-                    <p className=" mensaje">Aquí aprenderás las siguientes<br ></br>  letras : A, B, C, D, E, F, G, H, I<br ></br> <span className="espacio-blanco"> </span>
+                    <p className=" mensaje">Aquí aprenderás las siguientes<br ></br>  letras : A, B, C, E, L, O, V, W, U, Y<br ></br> <span className="espacio-blanco"> </span>
                     Cuando comience, observe la mano e <br ></br>  imite con su propia mano<br ></br> 
                     </p>
                     <div className="conti2"></div>
