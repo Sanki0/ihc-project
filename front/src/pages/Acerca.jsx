@@ -9,11 +9,12 @@ export default function Home() {
         <Menu4 />
       </div>
       <div className="Acerca">
-        <h1 className="Acerca-h1 Acerca-h1-1">Acerca de</h1>
-        <p className="Acerca-paragraph Acerca-paragraph-1">Hecho con amor por alumnos de la Universidad Nacional de Ingeniería</p>
-        <p className="Acerca-paragraph Acerca-paragraph-2">Creamos esta herramienta para facilitar que los niños sordos y sus padres aprendan el ABC de la lengua de señas peruana. Deletreo manual.</p>
-        <p className="Acerca-paragraph Acerca-paragraph-3">Aprenda más sobre la <a href="https://repositorio.minedu.gob.pe/handle/20.500.12799/5545">lengua de señas</a> o has una <a href="https://www.ensenasperu.org/involucrate.php">donación</a></p>
-        <p className="Acerca-paragraph Acerca-paragraph-4">Seguimiento de manos por <a href="https://www.w3schools.com">TensorFlow.js</a></p>
+        <h1 className="Acerca-h1 Acerca-h1-1">Instrucciones</h1>
+        <p className="Acerca-paragraph Acerca-paragraph-1">1. Das click al botón de "Comenzar"</p>
+        <p className="Acerca-paragraph Acerca-paragraph-2">2. Ingresas tu nombre, puedes escribirlo o usar el micrófono, luego le das al botón de enviar.</p>
+        <p className="Acerca-paragraph Acerca-paragraph-3">3. Escoges el nivel de tu preferencia, a mayor nivel mayor dificultad.</p>
+        <p className="Acerca-paragraph Acerca-paragraph-4">4. Dar permisos para encender tu cámara y verás las distintas palabras que posee el nivel</p>
+        <p className="Acerca-paragraph Acerca-paragraph-5">5. Formas las palabras que irán apareciendo con tu mano e irás acumulando una puntuación.</p>
       </div>
     </div>
   );

@@ -34,13 +34,13 @@
 }
 
 .Acerca-paragraph.Acerca-paragraph-1 {
-    height: 15vh;
+    height: 10vh;
     font-size: 1.1rem;
     font-family: 'Harmattan', sans-serif;
 }
 
 .Acerca-paragraph.Acerca-paragraph-2 {
-    height: 25vh;
+    height: 15vh;
     font-size: 1.1rem;
     font-family: 'Harmattan', sans-serif;
 }
@@ -52,6 +52,12 @@
 }
 
 .Acerca-paragraph.Acerca-paragraph-4 {
+    height: 15vh;
+    font-size: 1.1rem;
+    font-family: 'Harmattan', sans-serif;
+}
+
+.Acerca-paragraph.Acerca-paragraph-5 {
     height: 10vh;
     font-size: 1.1rem;
     font-family: 'Harmattan', sans-serif;
