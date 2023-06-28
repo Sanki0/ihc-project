@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
 
-    const [selectedNivel, setSelectedNivel] = useState("Nivel1");
+    const [selectedNivel] = useState("Nivel1");
     const [counter, setCounter] = useState(0);
     const [showCounter, setShowCounter] = useState(false);
     const [name, setName] = useState("")
