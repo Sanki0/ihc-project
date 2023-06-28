@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom"
-import Menu from '../components/Menu'
+import Menu5 from '../components/Menu5'
 import '../styles/Juego.css'
 
 import { useEffect, useRef, useState } from 'react'
@@ -120,7 +120,7 @@ export default function Juego() {
     return (
         <div className="All-Juego-jsx">
             <div className="Menu">
-                <Menu />
+                <Menu5 />
             </div>
             <div className="Juego">
 

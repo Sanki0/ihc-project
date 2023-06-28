@@ -126,3 +126,54 @@
   font-family: 'Harmattan', sans-serif;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 400px; /* Cambiar el ancho según tus necesidades */
+  height: 300px; /* Cambiar la altura según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fa871c;
+  padding: 2rem;
+  text-align: center;
+  align-self: flex-start; /* Alinea el cuadro en la parte superior */
+}
+
+.instruction {
+  margin-bottom: 1rem;
+  font-size: 0.89rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.word {
+  font-size: 1.5rem;
+  color: #55595B;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.counter {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.word-counter {
+  font-size: 1rem;
+  color: #333333;
+  margin-top: auto;
+}
+
+
+body {
+  overflow: hidden;
+}
+

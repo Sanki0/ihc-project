@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 export default function Home() {
 
     const [selectedNivel] = useState("Nivel1");
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState(3);
     const [showCounter, setShowCounter] = useState(false);
     const [name, setName] = useState("")
     const location = useLocation();
@@ -22,21 +22,28 @@ export default function Home() {
         let counter2 = counter;
         const interval = setInterval(() => {
             console.log(counter);
-            counter2++;
+            counter2--;
             setCounter(counter2);
-            if (counter2 === 3) {
+            if (counter2 === 1) {
                 clearInterval(interval);
                 window.location.href = `/juego?nivel=${nivelParameter}`;
             }
         }, 1000);
     };
-
     return (
         <div>
             <div className="Menu">
                 <Menu5 />
             </div>
-            {showCounter ? <h1 className="counter-center">{counter}</h1> :
+            {showCounter ? ( <div className="container">
+                                <div className="box">
+                                    <div className="instruction">DELETREA LA PALABRA </div>
+                                    <div className="word">CASA</div>
+                                    <div className="counter">{counter}</div>
+                                    <div className="word-counter">Palabra 1 de 5</div>
+                                </div>
+                             </div>
+                            ) :
                 <div className="Niveles">
                     {/* <div className="elegir-nivel-nombre">Hola {name}</div> */}
                     <div className="conti1">
