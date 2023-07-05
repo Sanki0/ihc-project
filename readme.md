@@ -35,4 +35,4 @@ Luego ejecutar  `npm run dev`  y dirigirse a su navegador `http://localhost:5173
 
 ## :clipboard:  Entregables
 
-* Nota: El conjunto de informes esta disponible [aquí]([https://drive.google.com/drive/folders/1YbFL77lRPgqbsdVAWrRAWJnj3dgjGQ8J?usp=share_link](https://unipe-my.sharepoint.com/:f:/g/personal/gabriela_colque_u_uni_pe/EuatGNG-BmlHg-3DaBbuZYQBddwboF7lRfbmNl9jYooHXw?e=FNqF6V)https://unipe-my.sharepoint.com/:f:/g/personal/gabriela_colque_u_uni_pe/EuatGNG-BmlHg-3DaBbuZYQBddwboF7lRfbmNl9jYooHXw?e=FNqF6V)
+* Nota: El conjunto de informes esta disponible [aquí](https://unipe-my.sharepoint.com/:f:/g/personal/gabriela_colque_u_uni_pe/EuatGNG-BmlHg-3DaBbuZYQBddwboF7lRfbmNl9jYooHXw?e=FNqF6V)
