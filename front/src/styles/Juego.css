@@ -64,6 +64,7 @@
 .ImageContainer {
   justify-self: center; /* Centra la imagen horizontalmente */
   margin-left: 10%;  
+  padding-top: 70px;
 }
 
 
