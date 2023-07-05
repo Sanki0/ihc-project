@@ -15,9 +15,9 @@ export default function Home() {
     }, [location]);
 
     const niveles = [
-        { nombre: "Nivel1", ruta: "/comenzar-nivel1" },
-        { nombre: "Nivel2", ruta: "/comenzar-nivel2" },
-        { nombre: "Nivel3", ruta: "/comenzar-nivel3" }
+        { nombre: "Nivel 1", ruta: "/comenzar-nivel1" },
+        { nombre: "Nivel 2", ruta: "/comenzar-nivel2" },
+        { nombre: "Nivel 3", ruta: "/comenzar-nivel3" }
     ];
 
     return (
