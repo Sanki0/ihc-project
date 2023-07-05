@@ -16,6 +16,31 @@ import { vowels } from "../utilities/nivel1";
 import { consonants } from "../utilities/nivel2";
 import { complexWords } from "../utilities/nivel3";
 
+import a from '../assets/a.png'
+import b from '../assets/b.png'
+import c from '../assets/c.png'
+import d from '../assets/d.png'
+import e from '../assets/e.png'
+import f from '../assets/f.png'
+import g from '../assets/g.png'
+import h from '../assets/h.png'
+import i from '../assets/i.png'
+import k from '../assets/k.png'
+import l from '../assets/l.png'
+import m from '../assets/m.png'
+import n from '../assets/n.png'
+import o from '../assets/o.png'
+import p from '../assets/p.png'
+import q from '../assets/q.png'
+import r from '../assets/r.png'
+import s from '../assets/s.png'
+import t from '../assets/t.png'
+import u from '../assets/u.png'
+import v from '../assets/v.png'
+import w from '../assets/w.png'
+import x from '../assets/x.png'
+import y from '../assets/y.png'
+
 export default function Juego() {
     const canvasRef = useRef(null);
     const webcamRef = useRef(null);
@@ -67,7 +92,7 @@ export default function Juego() {
         //  Loop and detect hands
         setInterval(() => {
             detect(net, word);
-        }, 60);
+        }, 10);
     };
 
     const detect = async (net) => {
@@ -656,7 +681,7 @@ export default function Juego() {
                 <div className="Container">
 
                     <div className="ImageContainer">
-                        <img src={"src/assets/letra-a.jpg"} alt="Image" className="seña-img" />
+                        <img src={`src/assets/${word}.png`} alt="Image" className="seña-img" />
                     </div>
                     <div className="WordContainer">
                         <h1>{word}</h1>
