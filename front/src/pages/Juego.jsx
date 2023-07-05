@@ -21,6 +21,7 @@ export default function Juego() {
     const webcamRef = useRef(null);
     const location = useLocation();
     const [word, setWord] = useState("");
+    const wordRef = useRef(word);
 
     useEffect(() => {
         const searchParams = new URLSearchParams(location.search);
@@ -49,6 +50,7 @@ export default function Juego() {
         const randomElement = words[randomKey];
 
         setWord(randomElement);
+        wordRef.current = randomElement;
 
         console.log("randomElement", randomElement);
 
@@ -64,7 +66,7 @@ export default function Juego() {
 
         //  Loop and detect hands
         setInterval(() => {
-            detect(net);
+            detect(net, word);
         }, 60);
     };
 
@@ -624,10 +626,10 @@ export default function Juego() {
                         var letter = "f";
                     }
                     console.log("letter", letter);
-                    console.log("word", word);
+                    console.log("word", wordRef.current);
                     console.log("gesture.gestures[maxConfidence].score", gesture.gestures[maxConfidence].score);
 
-                    if (letter == word) {
+                    if (letter == wordRef.current) {
                         console.log("palabra correcta");
                         alert("palabra correcta");
                     }
