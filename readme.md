@@ -26,7 +26,7 @@ Nuestra aplicación tiene como objetivo ayudar al usuario en el aprendizaje del 
 
 ## ¿Como iniciar con la aplicacion?
 
-Una vez descargada la aplicacion, cambie de ubicacion del directorio del proyecto a "front"
+Una vez clonado el repositorio, cambie de ubicacion del directorio del proyecto a "front"
 
 Dentro de "front" ejecutar `npm install` para instalar las dependencias necesarias
 
