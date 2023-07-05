@@ -6,7 +6,6 @@ export const consonants = {
   f: "f",
   g: "g",
   h: "h",
-  j: "j",
   k: "k",
   l: "l",
   m: "m",
@@ -20,5 +19,4 @@ export const consonants = {
   w: "w",
   x: "x",
   y: "y",
-  z: "z",
 };
