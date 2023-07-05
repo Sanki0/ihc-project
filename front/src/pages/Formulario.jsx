@@ -92,8 +92,12 @@ export default function Formulario() {
           console.log(error.text);
         }
       );
-    // change the page after submit
-    window.location.href = "/";
+
+    // reset the form after submit
+    setName('');
+    setEmail('');
+    setMessage('');
+
   };
 
   return (
