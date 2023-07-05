@@ -46,6 +46,8 @@ export default function Juego() {
     const webcamRef = useRef(null);
     const location = useLocation();
     const [word, setWord] = useState("");
+    const [words, setWords] = useState([]);
+    const wordsRef = useRef(words);
     const wordRef = useRef(word);
 
     useEffect(() => {
@@ -53,36 +55,42 @@ export default function Juego() {
         const nivel = searchParams.get("nivel");
         console.log("Selected nivel:", nivel);
         // setNivel(nivel);
-        let words = [];
+        let wordsArr = [];
 
         switch (nivel) {
             case "Nivel1":
-                words = vowels;
+                wordsArr = vowels;
                 break;
             case "Nivel2":
-                words = consonants;
+                wordsArr = consonants;
                 break;
             case "Nivel3":
-                words = complexWords;
+                wordsArr = complexWords;
                 break;
             default:
-                words = [];
+                wordsArr = [];
 
         }
 
-        const keys = Object.keys(words);
-        const randomKey = keys[Math.floor(Math.random() * keys.length)];
-        const randomElement = words[randomKey];
-
-        setWord(randomElement);
-        wordRef.current = randomElement;
-
-        console.log("randomElement", randomElement);
-
+        setWords(wordsArr);
+        wordsRef.current = wordsArr;
+        console.log("wordsRef.current", wordsRef.current);
+        selectRandomWord();
 
     }, [location]);
 
 
+    const selectRandomWord = () => {
+        const wordsArray = Object.values(wordsRef.current);
+        console.log("wordsArray", wordsArray);
+        const randomIndex = Math.floor(Math.random() * wordsArray.length);
+        const randomWord = wordsArray[randomIndex];
+        console.log("randomWord", randomWord);
+        setWord(randomWord);
+        console.log("wordRef.current", wordRef.current);
+        setWord(randomWord);
+        wordRef.current = randomWord;
+    };
 
 
     const runCoco = async () => {
@@ -625,6 +633,7 @@ export default function Juego() {
 
                 ]);
                 const gesture = await GE.estimate(hand[0].landmarks, 4);
+
                 if (gesture.gestures !== undefined && gesture.gestures.length > 0) {
                     console.log("gesture.gestures", gesture.gestures);
 
@@ -655,7 +664,12 @@ export default function Juego() {
                     console.log("gesture.gestures[maxConfidence].score", gesture.gestures[maxConfidence].score);
 
                     if (letter == wordRef.current) {
-                        console.log("palabra correcta");
+                        // i want to change the word and update the image and the div
+
+                        // wordRef.current = word;
+                        // setWord(word);
+                        selectRandomWord();
+
                         alert("palabra correcta");
                     }
 
